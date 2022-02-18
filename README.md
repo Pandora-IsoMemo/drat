@@ -6,6 +6,7 @@ The Pandora-IsoMemo drat repository: R-Package Source Code Repository
 
 ```r
 options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
+install.packages("BMSC")
 ```
 
 ## Autodeploy R packages to this repo
