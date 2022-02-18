@@ -1,0 +1,66 @@
+Package: BMSC
+Version: 0.7.7
+Depends: R (>= 3.4.0), Rcpp (>= 1.0.0), methods
+Imports: dplyr (>= 0.7.4), ggplot2 (>= 2.2.1), loo (>= 2.0.0), rstan
+        (>= 2.21.2), rstantools (>= 2.1.1), R.utils (>= 2.6.0), pROC
+LinkingTo: StanHeaders (>= 2.21.0-7), rstan (>= 2.21.2), BH (>=
+        1.72.0), Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.3.0)
+Suggests: lintr, testthat
+License: GPL-3
+MD5sum: 604294dd0a6ec7497208d379115d9147
+NeedsCompilation: yes
+
+Package: mpiBpred
+Version: 0.2.14
+Depends: R (>= 3.4.0), Rcpp (>= 0.12.0)
+Imports: coda, dplyr, ggplot2 (>= 2.2.1), rsync, shiny, shinyMatrix,
+        shinyWidgets, shinycssloaders, shinyjs, shinythemes, xlsx, zip
+Suggests: lintr, testthat
+License: GPL (>= 3)
+MD5sum: cf943fda007e53a1800066d26a88db48
+NeedsCompilation: yes
+
+Package: MpiIsoApp
+Version: 1.9.14
+Depends: R (>= 3.5.0)
+Imports: animation, coda, colourpicker, DT (>= 0.4), futile.logger,
+        httr, jsonlite (>= 1.5), geometry (>= 0.4.0), ggplot2,
+        grDevices (>= 3.4.4), ks (>= 1.0.0), leaflet (>= 1.1.0),
+        magrittr (>= 1.5), maps (>= 3.2.0), mapview, MASS (>= 7.3.5),
+        mgcv (>= 1.8.23), openxlsx (>= 4.0.17), raster (>= 2.6.7),
+        readODS, readxl, readr, Rfast (>= 2.0.0), rgdal, RColorBrewer
+        (>= 1.1.2), rcarbon (>= 1.4.0), shiny (>= 1.0.5), shinyjs (>=
+        1.0), shinyMatrix (>= 0.2.1), shinythemes (>= 1.1.1),
+        shinyWidgets (>= 0.4.1), sp (>= 1.2.7), stringi (>= 1.1.7),
+        webshot
+Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
+License: GPL (>= 3)
+MD5sum: 35722b8d9a42e9539ce63b1bc5563160
+NeedsCompilation: no
+
+Package: OsteoBioR
+Version: 0.2.0
+Depends: R (>= 3.5.0), Rcpp (>= 0.12.0)
+Imports: colourpicker, dplyr, ggplot2 (>= 2.2.1), jsonlite, magrittr,
+        methods, openxlsx, rlang, rstan (>= 2.18.1), rstantools (>=
+        1.5.0), shiny, shinyjs, shinyMatrix, shinyWidgets,
+        shinycssloaders, shinythemes, xlsx, zip
+LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0),
+        Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)
+Suggests: lintr, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: a40f02a6876d0c4da7277c55dfc6d584
+NeedsCompilation: yes
+
+Package: ReSources
+Version: 1.1.4
+Depends: R (>= 3.5.0), nimble (>= 0.6.12)
+Imports: abind, alphahull, car, coda, colourpicker, dplyr, DT,
+        jsonlite, futile.logger, ggplot2, grDevices, htmltools,
+        openxlsx, plotly, RColorBrewer, readxl, readr, rgl, shiny,
+        shinyjs, shinyMatrix (>= 0.2.1), shinythemes, shinyWidgets,
+        templates, tibble, tidyr
+LinkingTo: nimble (>= 0.11.1)
+Suggests: lintr, testthat, MpiIsoApp (>= 1.2.5)
+MD5sum: 18964d6b5e5c9f26d0a2166b4ba24b27
+NeedsCompilation: no
