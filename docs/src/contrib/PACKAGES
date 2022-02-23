@@ -10,6 +10,15 @@ License: GPL-3
 MD5sum: 604294dd0a6ec7497208d379115d9147
 NeedsCompilation: yes
 
+Package: IsomemoData
+Version: 1.0.0
+Depends: R (>= 3.5.0)
+Imports: jsonlite, modules, curl, ggplot2, maps
+Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: d44fa99628a91488256565943717b8d3
+NeedsCompilation: no
+
 Package: mpiBpred
 Version: 0.2.14
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0)
