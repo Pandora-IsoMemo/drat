@@ -70,6 +70,17 @@ License: GPL (>= 3)
 MD5sum: a40f02a6876d0c4da7277c55dfc6d584
 NeedsCompilation: yes
 
+Package: PlotR
+Version: 22.02.1
+Depends: R (>= 3.5.0)
+Imports: colourpicker, dplyr, DT, futile.logger, jsonlite, magrittr,
+        mgcv, openxlsx, readxl, readr, Rfast, rlang, shiny, shinyalert,
+        shinyjs, shinythemes, tibble, zip
+Suggests: lintr (>= 1.0.2), testthat
+License: GPL (>= 3)
+MD5sum: 4b6e733c9724745d459eccaa322a3452
+NeedsCompilation: no
+
 Package: ReSources
 Version: 22.02.1
 Depends: R (>= 3.5.0), nimble (>= 0.6.12)
