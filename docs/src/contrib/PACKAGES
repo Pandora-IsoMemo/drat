@@ -62,7 +62,7 @@ MD5sum: a40f02a6876d0c4da7277c55dfc6d584
 NeedsCompilation: yes
 
 Package: ReSources
-Version: 1.1.4
+Version: 22.02.1
 Depends: R (>= 3.5.0), nimble (>= 0.6.12)
 Imports: abind, alphahull, car, coda, colourpicker, dplyr, DT,
         jsonlite, futile.logger, ggplot2, grDevices, htmltools,
@@ -71,5 +71,6 @@ Imports: abind, alphahull, car, coda, colourpicker, dplyr, DT,
         templates, tibble, tidyr
 LinkingTo: nimble (>= 0.11.1)
 Suggests: lintr, testthat, MpiIsoApp (>= 1.2.5)
-MD5sum: 18964d6b5e5c9f26d0a2166b4ba24b27
+License: GPL (>= 3)
+MD5sum: 7122754135e0a9fe60710cac92fceae7
 NeedsCompilation: no
