@@ -30,7 +30,7 @@ MD5sum: cf943fda007e53a1800066d26a88db48
 NeedsCompilation: yes
 
 Package: MpiIsoApp
-Version: 1.9.14
+Version: 22.02.2
 Depends: R (>= 3.5.0)
 Imports: animation, coda, colourpicker, DT (>= 0.4), futile.logger,
         httr, jsonlite (>= 1.5), geometry (>= 0.4.0), ggplot2,
@@ -44,7 +44,7 @@ Imports: animation, coda, colourpicker, DT (>= 0.4), futile.logger,
         webshot
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
 License: GPL (>= 3)
-MD5sum: 35722b8d9a42e9539ce63b1bc5563160
+MD5sum: 5088f3953218fe927d0362ba61abceaa
 NeedsCompilation: no
 
 Package: OsteoBioR
