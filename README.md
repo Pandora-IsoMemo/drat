@@ -11,18 +11,23 @@ install.packages("BMSC")
 
 ## Autodeploy R packages to this repo
 
-Add the following to your .travis.yml file:
+Add the following to your Jenkinsfile:
 
-```yml
-after_success:
-    - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && curl
-      https://raw.githubusercontent.com/Pandora-IsoMemo/drat/main/deploy.sh > deploy.sh && bash
-      deploy.sh
+```groovy
+stage('Deploy R-package') {
+  when { branch 'main' }
+  steps {
+      sh '''
+      curl https://raw.githubusercontent.com/Pandora-IsoMemo/drat/main/deploy.sh > deploy.sh
+      # Expects environment variables:
+      # CUR_PROJ
+      # TMP_SUFFIX
+      # GH_TOKEN_PSW -- a GitHub personal access token with write access to the drat repo
+      # Expected environment:
+      # Dockerfile
+      # git, docker, curl is available on PATH
+      bash deploy.sh
+      '''
+  }
+}
 ```
-
-Add a deploy key to your travis job
-
-1. Generate a new personal access token. Needs read access to public repos
-2. Alternatively go to the settings of your project on travis-ci.com and add the env variable there.
-3. Get Help
-   [here](https://cran.r-project.org/web/packages/drat/vignettes/CombiningDratAndTravis.html)
