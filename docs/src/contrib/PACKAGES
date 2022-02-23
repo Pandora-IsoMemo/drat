@@ -16,7 +16,7 @@ Depends: R (>= 3.5.0)
 Imports: jsonlite, modules, curl, ggplot2, maps
 Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: d44fa99628a91488256565943717b8d3
+MD5sum: da33b0fafd5dfdc7780d2914a5ca7501
 NeedsCompilation: no
 
 Package: mpiBpred
