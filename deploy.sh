@@ -1,20 +1,26 @@
 #!/bin/bash
 set -o errexit -o nounset
 addToDrat(){
-  PKG_REPO=$PWD
-
-  cd ..
-  git clone https://$GH_TOKEN@github.com/Pandora-IsoMemo/drat.git
-  cd drat/docs
-  git config user.name "SW from Travis CI"
-  git config user.email "sebastian.warnholz@inwt-statistics.de"
-  git config --global push.default simple
-
-  Rscript -e "install.packages('drat')"
-  Rscript -e "drat::insertPackage('$PKG_REPO/$PKG_TARBALL', repodir = '.')"
+  echo "Cleaning up"
+  rm -f *.tar.gz
+  rm -fr drat
+  echo "Building docker image"
+  docker build -t tmp-$CUR_PROJ-$TMP_SUFFIX .
+  echo "Compiling R package"
+  docker run --rm --network host -v $PWD:/app --user `id -u`:`id -g` tmp-$CUR_PROJ-$TMP_SUFFIX R CMD build $CUR_PKG_FOLDER
+  echo "Deploy to drat"
+  git clone https://$GH_TOKEN_PSW@github.com/Pandora-IsoMemo/drat.git
+  docker run --rm -v $PWD:/app --user `id -u`:`id -g` tmp-$CUR_PROJ-$TMP_SUFFIX R -e "drat::insertPackage(dir(pattern='.tar.gz'), 'drat/docs'); drat::archivePackages(repopath = 'drat/docs')"
+  cd drat
+  git config user.name "jenkins-pandora-isomemo"
+  git config user.email "jenkins-mpi@inwt-statistics.de"
   git add --all
-  git commit -m "Travis update: build $TRAVIS_BUILD_NUMBER"
-  git push 2> /tmp/err.txt
-
+  git commit -m "Build from Jenkins"
+  git push
+  cd ..
+  echo "Cleaning up"
+  rm -vf *.tar.gz
+  rm -fr drat
+  docker rmi tmp-$CUR_PROJ-$TMP_SUFFIX
 }
 addToDrat
