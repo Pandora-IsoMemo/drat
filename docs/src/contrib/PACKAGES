@@ -22,12 +22,12 @@ MD5sum: 56beca1e0b72c7518e37e2ca475e6265
 NeedsCompilation: no
 
 Package: IsomemoData
-Version: 1.0.0
+Version: 1.0.003
 Depends: R (>= 3.5.0)
-Imports: jsonlite, modules, curl, ggplot2, maps
+Imports: jsonlite, curl, modules
 Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: da33b0fafd5dfdc7780d2914a5ca7501
+MD5sum: 9b79d797fbeabf2d0320cce1b154aa2d
 NeedsCompilation: no
 
 Package: mpiBpred
