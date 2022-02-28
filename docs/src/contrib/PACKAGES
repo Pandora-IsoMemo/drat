@@ -68,7 +68,7 @@ MD5sum: c211d82729111b791eb24ea8af517790
 NeedsCompilation: no
 
 Package: OsteoBioR
-Version: 0.2.0
+Version: 22.02.2
 Depends: R (>= 3.5.0), Rcpp (>= 0.12.0)
 Imports: colourpicker, dplyr, ggplot2 (>= 2.2.1), jsonlite, magrittr,
         methods, openxlsx, rlang, rstan (>= 2.18.1), rstantools (>=
@@ -78,7 +78,7 @@ LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0),
         Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)
 Suggests: lintr, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: a40f02a6876d0c4da7277c55dfc6d584
+MD5sum: f3b01939b65b777d83821a64282c0a2a
 NeedsCompilation: yes
 
 Package: PlotR
