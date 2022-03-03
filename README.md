@@ -5,15 +5,23 @@ The Pandora-IsoMemo drat repository: R-Package Source Code Repository
 ## To install specific pacakges and webapps from this repository
 Official names of the IsoMemo Packages:
 
-### Packages:
-- BMSC
-- IsomemoData
+## Packages:
+- ### BMSC
+```r
+options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
+install.packages("BMSC")
+```
+- ### IsomemoData
+```r
+options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
+install.packages("IsomemoData")
+```
 
-### Web Applications:
-- ReSources
-- Pandora-Isomemo
-- Bpred
-- PlotR
+## Web Applications:
+- ### ReSources
+- ### Pandora-Isomemo
+- ### Bpred
+- ### PlotR
 
 ### Instructions for Installing packages: BMSC, IsomemoData
 ```r
@@ -28,6 +36,10 @@ install.packages(c("BMSC", "IsomemoData"))
 options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
 install.packages("BMSC")
 ```
+
+### Installation Forums
+If you have issues installing the packages, please report your issue under Installation Forums with the package name and what steps you have already done.
+
 
 ## Autodeploy R packages to this repo
 
