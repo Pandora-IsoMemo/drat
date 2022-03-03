@@ -1,29 +1,58 @@
 # drat
 
-The Pandora-IsoMemo drat repository: R-Package Source Code Repository
+The Pandora-IsoMemo drat repository: R-Package Source Code Repository for open-source and academic community.
 
-## To install specific pacakges and webapps from this repository
-Official names of the IsoMemo Packages:
+## Instructions to install specific pacakges and webapps from this repository:
 
-## Packages:
-- ### BMSC
+## Step 1: Open R and user must run this commands: 
 ```r
 options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
+```
+## Step 2: Proceed to download the relevant R packages and Web Apps
+### Install Packages:
+- #### BMSC
+```r
 install.packages("BMSC")
 ```
-- ### IsomemoData
+- #### IsomemoData
 ```r
-options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
 install.packages("IsomemoData")
 ```
 
-## Web Applications:
-- ### ReSources
-- ### Pandora-Isomemo
-- ### Bpred
-- ### PlotR
+### Installing Web Applications:
+- #### ReSources
+```r
+install.packages("ReSources")
+```
+- #### MpiIsoApp
+```r
+install.packages("MpiIsoApp")
+```
+- #### mpiBpred 
+```r
+install.packages("mpiBpred")
+```
+- #### PlotR
+```r
+install.packages("PlotR")
+```
+- #### BMSCApp
+```r
+install.packages("BMSCApp")
+```
+- #### OsteoBioR
+```r
+install.packages("OsteoBioR")
+```
+### Installing Data API
+- #### MpiIsoData
+```r
+install.packages("MpiIsoData")
+```
 
-### Instructions for Installing packages: BMSC, IsomemoData
+
+
+### Instructions for Installing more than one package at once:
 ```r
 options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
 install.packages("BMSC")
@@ -31,15 +60,11 @@ install.packages("BMSC")
 # or two packages at once
 install.packages(c("BMSC", "IsomemoData"))
 ```
-### Installing Web-applcations: ReSources app, Pandora-Isomemo app, Plot-R app, OstebioR app, B-pred
-```r
-options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
-install.packages("BMSC")
-```
+
 
 ### Installation Forums
 If you have issues installing the packages, please report your issue under Installation Forums with the package name and what steps you have already done.
-
+> #### Here is the forum to report installation issues: https://github.com/Pandora-IsoMemo/drat/issues/2
 
 ## Autodeploy R packages to this repo
 
