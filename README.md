@@ -1,51 +1,55 @@
 # drat
 
-The Pandora-IsoMemo drat repository: R-Package Source Code Repository for open-source and academic community.
+The Pandora-IsoMemo drat repository: R-Package Source Code Repository for IsoMemo open-source and academic community.
 
-## Instructions to install specific pacakges and webapps from this repository:
+## Instructions to install specific IsoMemo pacakges and webapps from this repository:
 
-## Step 1: Open R and user must run this commands: 
+> ## Step 1: Open R and user must run this command: 
 ```r
 options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
 ```
-## Step 2: Proceed to download the relevant R packages and Web Apps
+> ## Step 2: Proceed to download the relevant R packages and Web Apps
 ### Install Packages:
-- #### BMSC
+> - #### BMSC
 ```r
 install.packages("BMSC")
 ```
-- #### IsomemoData
+> - #### IsomemoData
 ```r
 install.packages("IsomemoData")
 ```
 
 ### Installing Web Applications:
-- #### ReSources
+> - #### ReSources
 ```r
 install.packages("ReSources")
 ```
-- #### MpiIsoApp
+> - #### MpiIsoApp
 ```r
 install.packages("MpiIsoApp")
 ```
-- #### mpiBpred 
+> - #### mpiBpred 
 ```r
 install.packages("mpiBpred")
 ```
-- #### PlotR
+> - #### PlotR
 ```r
 install.packages("PlotR")
 ```
-- #### BMSCApp
+> - #### BMSCApp
 ```r
 install.packages("BMSCApp")
 ```
-- #### OsteoBioR
+> - #### OsteoBioR
 ```r
 install.packages("OsteoBioR")
 ```
 ### Installing Data API
-- #### MpiIsoData
+> - #### IsomemoData: Package to Retrieve Data from the IsoMemo API (also available on CRAN)
+```r
+install.packages("IsomemoData")
+```
+> - #### MpiIsoData: Data for MPI Iso App
 ```r
 install.packages("MpiIsoData")
 ```
@@ -54,10 +58,7 @@ install.packages("MpiIsoData")
 
 ### Instructions for Installing more than one package at once:
 ```r
-options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
-install.packages("BMSC")
-
-# or two packages at once
+# two or more packages at once
 install.packages(c("BMSC", "IsomemoData"))
 ```
 
