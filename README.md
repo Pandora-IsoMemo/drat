@@ -65,6 +65,12 @@ install.packages(c("BMSC", "IsomemoData"))
 
 ### Installation Forums
 If you have issues installing the packages, please report your issue under Installation Forums with the package name and what steps you have already done.
+Can you please provide:
+
+>> - All commands that led to the installation error: 
+>> - The full output of `sessionInfo()`
+>> - The output of `options("repos")`
+>> 
 > #### Here is the forum to report installation issues: https://github.com/Pandora-IsoMemo/drat/issues/2
 
 ## Autodeploy R packages to this repo
