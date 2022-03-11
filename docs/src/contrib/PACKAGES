@@ -31,13 +31,14 @@ MD5sum: 9b79d797fbeabf2d0320cce1b154aa2d
 NeedsCompilation: no
 
 Package: mpiBpred
-Version: 22.02.1
+Version: 22.03.1
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0)
-Imports: coda, dplyr, ggplot2 (>= 2.2.1), rsync, shiny, shinyMatrix,
-        shinyWidgets, shinycssloaders, shinyjs, shinythemes, xlsx, zip
+Imports: coda, dplyr, ggplot2 (>= 2.2.1), htmltools, rsync, shiny,
+        shinyMatrix, shinyWidgets, shinycssloaders, shinyjs,
+        shinythemes, xlsx, zip
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: 27df9f37e68e707179715339414bc7ba
+MD5sum: 51d3758f451c1dd8e8c5bb7c798d7234
 NeedsCompilation: yes
 
 Package: MpiIsoApp
