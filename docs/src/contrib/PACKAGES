@@ -94,15 +94,15 @@ MD5sum: 4b6e733c9724745d459eccaa322a3452
 NeedsCompilation: no
 
 Package: ReSources
-Version: 22.03.1
+Version: 22.03.2
 Depends: R (>= 3.5.0), nimble (>= 0.6.12)
 Imports: abind, alphahull, car, coda, colourpicker, dplyr, DT,
         jsonlite, futile.logger, ggplot2, grDevices, htmltools,
         openxlsx, plotly, RColorBrewer, readxl, readr, rgl, shiny,
         shinyjs, shinyMatrix (>= 0.2.1), shinythemes, shinyWidgets,
         templates, tibble, tidyr
-LinkingTo: nimble (>= 0.11.1)
+LinkingTo: nimble (>= 0.12.1)
 Suggests: lintr, testthat, MpiIsoApp (>= 1.2.5)
 License: GPL (>= 3)
-MD5sum: 628ddea5802edac818f3b61e1ce344e4
+MD5sum: 92155a3b1cd6e0acd7d520c3f418fbf9
 NeedsCompilation: no
