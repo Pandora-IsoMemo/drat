@@ -3,6 +3,10 @@
 The Pandora-IsoMemo drat repository: R-Package Source Code Repository for IsoMemo open-source and academic community.
 
 ## Instructions to install specific IsoMemo pacakges and webapps from this repository:
+> ## Step 0: You must install R open source software
+- windows: https://cran.r-project.org/bin/windows/base/
+- MacOS: https://cran.r-project.org/bin/macosx/
+> You might be asked to select a mirror, a regional CRAN repo geographically close to you, then just select your region to complete the download.
 
 > ## Step 1: Open R and user must run this command: 
 ```r
@@ -61,6 +65,21 @@ install.packages("MpiIsoData")
 # two or more packages at once
 install.packages(c("BMSC", "IsomemoData"))
 ```
+
+## Step 3: How to Start Web Application
+First you need the devtools package, which help load and initialize the IsoMemo apps and databases, run these commands:
+```r
+install.packages("devtools") # if you don't have the package
+library(devtools)
+```
+After you finish installing all the dependencies please run:
+`devtools::load_all('.')`
+
+> ### How to start the application interface:
+  start the ReSources Application user Interface locally run:
+`startApplication()`
+  
+  Now, a browser should pop and the app is now ready to be used!
 
 
 # HOW TO REPORT BUGS:
