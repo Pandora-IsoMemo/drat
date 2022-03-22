@@ -79,7 +79,7 @@ After you finish installing all the dependencies please run:
   start the ReSources Application user Interface locally run:
 `startApplication()`
   
-  Now, a browser should pop and the app is now ready to be used!
+  **Note**: _if you want to run multiple apps at once, then you will have to open another R console and repeat the steps to start the apps. The reasons is that two apps cannot be started from the same R console, just open another R window session, and repeat steps 1 and 2. Now, a browser should pop and the app is now ready to be used!_
 
 
 # HOW TO REPORT BUGS:
