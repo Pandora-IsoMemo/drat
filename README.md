@@ -14,50 +14,45 @@ options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.
 ```
 > ## Step 2: Proceed to download the relevant R packages and Web Apps
 ### Install Packages:
-> - #### BMSC
+> - #### [BMSC](https://github.com/Pandora-IsoMemo/drat/issues/5)
 ```r
 install.packages("BMSC")
 ```
-> - #### IsomemoData
+> - #### [IsomemoData](https://github.com/Pandora-IsoMemo/drat/issues/10): Package to Retrieve Data from the IsoMemo API (also available on CRAN)
 ```r
 install.packages("IsomemoData")
 ```
 
 ### Installing Web Applications:
-> - #### ReSources
+> - #### [ReSources](https://github.com/Pandora-IsoMemo/drat/issues/4)
 ```r
 install.packages("ReSources")
 ```
-> - #### MpiIsoApp
+> - #### [MpiIsoApp](https://github.com/Pandora-IsoMemo/drat/issues/3)
 ```r
 install.packages("MpiIsoApp")
 ```
-> - #### mpiBpred 
+> - #### [mpiBpred](https://github.com/Pandora-IsoMemo/drat/issues/6) 
 ```r
 install.packages("mpiBpred")
 ```
-> - #### PlotR
+> - #### [PlotR](https://github.com/Pandora-IsoMemo/drat/issues/7)
 ```r
 install.packages("PlotR")
 ```
-> - #### BMSCApp
+> - #### [BMSCApp](https://github.com/Pandora-IsoMemo/drat/issues/8)
 ```r
 install.packages("BMSCApp")
 ```
-> - #### OsteoBioR
+> - #### [OsteoBioR](https://github.com/Pandora-IsoMemo/drat/issues/11)
 ```r
 install.packages("OsteoBioR")
 ```
 ### Installing Data API
-> - #### IsomemoData: Package to Retrieve Data from the IsoMemo API (also available on CRAN)
-```r
-install.packages("IsomemoData")
-```
-> - #### MpiIsoData: Data for MPI Iso App
+> - #### [MpiIsoData](https://github.com/Pandora-IsoMemo/drat/issues/12): Data for MPI Iso App
 ```r
 install.packages("MpiIsoData")
 ```
-
 
 
 ### Instructions for Installing more than one package at once:
@@ -66,18 +61,10 @@ install.packages("MpiIsoData")
 install.packages(c("BMSC", "IsomemoData"))
 ```
 
-## Step 3: How to Start Web Application
-First you need the devtools package, which help load and initialize the IsoMemo apps and databases, run these commands:
-```r
-install.packages("devtools") # if you don't have the package
-library(devtools)
-```
-After you finish installing all the dependencies please run:
-`devtools::load_all('.')`
-
-> ### How to start the application interface:
-  start the ReSources Application user Interface locally run:
-`startApplication()`
+## Step 3: How to Start Web Application on your local machine
+First pick a web application to start. After intalling all the relevant web apps from **STEP 2**, for example, we choose to initiate the **PlotR** application. Please locally run in your R console:
+- `library(PlotR)` 
+- `startApplication()`
   
   **Note**: _if you want to run multiple apps at once, then you will have to open another R console and repeat the steps to start the apps. The reasons is that two apps cannot be started from the same R console, just open another R window session, and repeat steps 1 and 2. Now, a browser should pop and the app is now ready to be used!_
 
