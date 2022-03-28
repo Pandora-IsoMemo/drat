@@ -8,7 +8,8 @@ The Pandora-IsoMemo drat repository: R-Package Source Code Repository for IsoMem
 - MacOS: https://cran.r-project.org/bin/macosx/
 > You might be asked to select a mirror, a regional CRAN repo geographically close to you, then just select your region to complete the download.
 
-> ## Step 1: Open R and user must run this command: 
+> ## Step 1: Open R Console and user must run this command: 
+More directions here: https://www.dataquest.io/blog/tutorial-getting-started-with-r-and-rstudio/
 ```r
 options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.io/drat/"))
 ```
@@ -64,7 +65,7 @@ install.packages(c("BMSC", "IsomemoData"))
 ## Step 3: How to Start Web Application on your local machine
 First pick a web application to start. After intalling all the relevant web apps from **STEP 2**, for example, we choose to initiate the **PlotR** application. Please locally run in your R console:
 - `library(PlotR)` 
-- `startApplication()`
+- `PlotR::startApplication()`
   
   **Note**: _if you want to run multiple apps at once, then you will have to open another R console and repeat the steps to start the apps. The reasons is that two apps cannot be started from the same R console, just open another R window session, and repeat steps 1 and 2. Now, a browser should pop and the app is now ready to be used!_
 
