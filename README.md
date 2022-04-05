@@ -59,7 +59,7 @@ install.packages("MpiIsoData")
 ### Instructions for Installing more than one package at once:
 ```r
 # two or more packages at once
-install.packages(c("BMSC", "IsomemoData"))
+install.packages(c("BMSC", "IsoMemo"))
 ```
 
 ## Step 3: How to Start Web Application on your local machine
