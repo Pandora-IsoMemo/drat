@@ -19,9 +19,9 @@ options(repos = c(getOption("repos"), PANDORA = "https://Pandora-IsoMemo.github.
 ```r
 install.packages("BMSC")
 ```
-> - #### [IsomemoData](https://github.com/Pandora-IsoMemo/drat/issues/10): Package to Retrieve Data from the IsoMemo API (also available on CRAN)
+> - #### [IsoMemo](https://github.com/Pandora-IsoMemo/drat/issues/10): Package to Retrieve Data from the IsoMemo API (also available on CRAN)
 ```r
-install.packages("IsomemoData")
+install.packages("IsoMemo")
 ```
 
 ### Installing Web Applications:
