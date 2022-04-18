@@ -21,6 +21,15 @@ License: GPL (>= 3)
 MD5sum: 56beca1e0b72c7518e37e2ca475e6265
 NeedsCompilation: no
 
+Package: IsoMemo
+Version: 1.0.5
+Depends: R (>= 3.5.0)
+Imports: jsonlite, curl, modules
+Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 342bd06191ecd93bf2abb37a6a6c2fd2
+NeedsCompilation: no
+
 Package: IsomemoData
 Version: 1.0.003
 Depends: R (>= 3.5.0)
