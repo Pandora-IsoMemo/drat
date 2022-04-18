@@ -24,10 +24,10 @@ NeedsCompilation: no
 Package: IsoMemo
 Version: 1.0.5
 Depends: R (>= 3.5.0)
-Imports: jsonlite, curl, modules
+Imports: jsonlite, modules, curl
 Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: e870286fe8a8568946198aa0b31ae6e7
+MD5sum: b15194d3511ee485fa58ccbabc1be4f2
 NeedsCompilation: no
 
 Package: IsomemoData
