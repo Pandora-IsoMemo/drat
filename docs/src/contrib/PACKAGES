@@ -11,14 +11,14 @@ MD5sum: 25522646205706a06beac59292616a40
 NeedsCompilation: yes
 
 Package: BMSCApp
-Version: 22.05.1
+Version: 22.05.1.1
 Depends: R (>= 3.5.0)
 Imports: car, coda, BMSC (>= 0.7.7), dplyr, jsonlite, ggplot2, shiny,
         shinyjs, shinythemes, shinyWidgets, futile.logger, openxlsx,
         pROC, DT, Rcpp, readxl, readr, rstan (>= 2.21.2), tidyr
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: 9aee8557858e0385259230dd6066d024
+MD5sum: ea61e211bd976ffe5aea943680ebb51a
 NeedsCompilation: no
 
 Package: IsoMemo
