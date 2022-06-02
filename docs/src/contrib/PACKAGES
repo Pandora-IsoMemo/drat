@@ -18,7 +18,7 @@ Imports: car, coda, BMSC (>= 0.7.7), dplyr, jsonlite, ggplot2, shiny,
         pROC, DT, Rcpp, readxl, readr, rstan (>= 2.21.2), tidyr
 Suggests: lintr, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: d72cc4852f60849a8ad05df8d9379512
+MD5sum: 0f71528f45233ca2a21ab4c0fa64433f
 NeedsCompilation: no
 
 Package: IsoMemo
