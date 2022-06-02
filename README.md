@@ -42,9 +42,13 @@ install.packages("mpiBpred")
 install.packages("PlotR")
 ```
 > - #### [BMSCApp](https://github.com/Pandora-IsoMemo/drat/issues/8)
-```r
-install.packages("BMSCApp")
-```
+>> #### DOWNLOAD BMSCapp INSTALLATION ON LOCAL MACHINE
+- First download Docker (see instructions: https://docs.docker.com/desktop/windows/install/) and see video instructions (https://www.youtube.com/watch?v=_9AWYlt86B8)
+- Next, open your windows CMD line and run these following commands:
+  > - download and install BMSC app: `docker pull ghcr.io/pandora-isomemo/bmsc-app:main`
+  > - start the app run: `docker run -p 3838:3838 ghcr.io/pandora-isomemo/bmsc-app:main`
+  > - this outputs `Listening on http://0.0.0.0:3838`, then copy & paste the `http://0.0.0.0:3838` to your browser to access local version. 
+  > - quit the app run: `docker run -p 3838:3838 --rm ghcr.io/pandora-isomemo/bmsc-app:main` or just close the browser window
 > - #### [OsteoBioR](https://github.com/Pandora-IsoMemo/drat/issues/11)
 ```r
 install.packages("OsteoBioR")
