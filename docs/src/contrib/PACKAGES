@@ -99,7 +99,7 @@ Imports: colourpicker, dplyr, DT, futile.logger, jsonlite, magrittr,
         shinyjs, shinythemes, tibble, zip
 Suggests: lintr (>= 1.0.2), testthat
 License: GPL (>= 3)
-MD5sum: 4b6e733c9724745d459eccaa322a3452
+MD5sum: d0afa7be386eab7b50af5f192f4fe6b4
 NeedsCompilation: no
 
 Package: ReSources
