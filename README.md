@@ -2,7 +2,7 @@
 
 The Pandora-IsoMemo drat repository: R-Package Source Code Repository for IsoMemo open-source and academic community.
 
-## Instructions to install specific IsoMemo pacakges and webapps from this repository:
+## Instructions to install specific Pandora & IsoMemo pacakges and webapps from this repository:
 > ## Step 0: You must install R open source software
 - windows: https://cran.r-project.org/bin/windows/base/
 - MacOS: https://cran.r-project.org/bin/macosx/
