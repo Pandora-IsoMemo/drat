@@ -65,7 +65,7 @@ Imports: animation, coda, colourpicker, DT (>= 0.4), futile.logger,
         webshot
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
 License: GPL (>= 3)
-MD5sum: 42a988ef7e3155b6a9740d02fcef4e6d
+MD5sum: f71570d4a4cc47cb0df76b0139a467c2
 NeedsCompilation: no
 
 Package: MpiIsoData
