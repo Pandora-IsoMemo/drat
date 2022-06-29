@@ -33,9 +33,9 @@ install.packages("ReSources")
 ```r
 install.packages("MpiIsoApp")
 ```
-> - #### [mpiBpred](https://github.com/Pandora-IsoMemo/drat/issues/6) 
+> - #### [bpred](https://github.com/Pandora-IsoMemo/drat/issues/6) 
 ```r
-install.packages("mpiBpred")
+install.packages("bpred")
 ```
 > - #### [PlotR](https://github.com/Pandora-IsoMemo/drat/issues/7)
 ```r
