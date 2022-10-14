@@ -88,7 +88,7 @@ LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0),
         Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)
 Suggests: lintr, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: f765af7e207a4880aec33cd52fdb3266
+MD5sum: d9a76616f2549095141776bac0c449e1
 NeedsCompilation: yes
 
 Package: PlotR
