@@ -92,14 +92,14 @@ MD5sum: 0b7b09eef8b10a6e476b977e46b6b8d6
 NeedsCompilation: yes
 
 Package: PlotR
-Version: 22.02.1
+Version: 22.12.1
 Depends: R (>= 3.5.0)
 Imports: colourpicker, dplyr, DT, futile.logger, jsonlite, magrittr,
         mgcv, openxlsx, readxl, readr, Rfast, rlang, shiny, shinyalert,
         shinyjs, shinythemes, tibble, zip
 Suggests: lintr (>= 1.0.2), testthat
 License: GPL (>= 3)
-MD5sum: d0afa7be386eab7b50af5f192f4fe6b4
+MD5sum: fb3399c9f784a02e7466e273669590b1
 NeedsCompilation: no
 
 Package: ReSources
