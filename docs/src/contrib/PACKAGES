@@ -51,7 +51,7 @@ MD5sum: 7dd63f7622ae36c3ddf3a2295d77d3bb
 NeedsCompilation: yes
 
 Package: MpiIsoApp
-Version: 22.08.2.1
+Version: 22.12.3
 Depends: R (>= 3.5.0)
 Imports: animation, coda, colourpicker, DT (>= 0.4), futile.logger,
         httr, jsonlite (>= 1.5), geometry (>= 0.4.0), ggplot2,
@@ -62,10 +62,10 @@ Imports: animation, coda, colourpicker, DT (>= 0.4), futile.logger,
         (>= 1.1.2), rcarbon (>= 1.4.0), shiny (>= 1.0.5), shinyjs (>=
         1.0), shinyMatrix (>= 0.2.1), shinythemes (>= 1.1.1),
         shinyWidgets (>= 0.4.1), sp (>= 1.2.7), stringi (>= 1.1.7),
-        webshot
+        webshot, zip
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
 License: GPL (>= 3)
-MD5sum: 194c9a191994f13cca8a75d29b5e8749
+MD5sum: 6a756584d9ea9a7f2daa99f4c00aefe1
 NeedsCompilation: no
 
 Package: MpiIsoData
