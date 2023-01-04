@@ -47,7 +47,7 @@ Imports: coda, dplyr, ggplot2 (>= 2.2.1), htmltools, httr, jsonlite,
         shinyWidgets, shinycssloaders, shinyjs, shinythemes, xlsx, zip
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: d11138c3f84533e7a7983a32a8e28966
+MD5sum: 43c67887673fd350475c18b670c6408d
 NeedsCompilation: yes
 
 Package: MpiIsoApp
