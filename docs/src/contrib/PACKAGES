@@ -21,6 +21,16 @@ License: GPL (>= 3)
 MD5sum: ac36aed873edad89aad6b4133e775cd1
 NeedsCompilation: no
 
+Package: IsoAppTools
+Version: 23.01.1
+Depends: R (>= 3.5.0)
+Imports: dplyr, DT, httr, magrittr, openxlsx, readODS, readr, readxl,
+        RSQLite, shiny, shinyAce, shinyjs, templates, tidyr
+Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0)
+License: GPL (>= 3)
+MD5sum: 3e665f0cbee5c93307a442241844ff32
+NeedsCompilation: no
+
 Package: IsoMemo
 Version: 1.0.5001
 Depends: R (>= 3.5.0)
