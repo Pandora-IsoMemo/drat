@@ -28,7 +28,7 @@ Imports: dplyr, DT, httr, magrittr, openxlsx, readODS, readr, readxl,
         RSQLite, shiny, shinyAce, shinyjs, templates, tidyr
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: 90b6b1b9233ddfd84c7de064e2927dc9
+MD5sum: bdf0a7b8e286e79b05067e02a5c3dfb9
 NeedsCompilation: no
 
 Package: IsoMemo
