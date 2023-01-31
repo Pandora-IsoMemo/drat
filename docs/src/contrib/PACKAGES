@@ -22,6 +22,16 @@ License: GPL (>= 3)
 MD5sum: ac36aed873edad89aad6b4133e775cd1
 NeedsCompilation: no
 
+Package: DataTools
+Version: 23.01.6
+Depends: R (>= 3.5.0)
+Imports: dplyr, DT, httr, magrittr, openxlsx, readODS, readr, readxl,
+        RSQLite, shiny, shinyAce, shinyjs, templates, tidyr
+Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0)
+License: GPL (>= 3)
+MD5sum: 80f926b282575a78f87ef1cb03de9661
+NeedsCompilation: no
+
 Package: IsoAppTools
 Version: 23.01.5
 Depends: R (>= 3.5.0)
