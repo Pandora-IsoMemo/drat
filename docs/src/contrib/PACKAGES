@@ -29,7 +29,7 @@ Imports: dplyr, DT, httr, magrittr, openxlsx, readODS, readr, readxl,
         RSQLite, shiny, shinyAce, shinyjs, templates, tidyr
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: 80f926b282575a78f87ef1cb03de9661
+MD5sum: 0388e5e2435d11c9ddd37a3779c1de6f
 NeedsCompilation: no
 
 Package: IsoAppTools
