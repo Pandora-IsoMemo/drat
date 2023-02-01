@@ -69,7 +69,7 @@ Imports: coda, dplyr, ggplot2 (>= 2.2.1), DataTools (>= 23.1.7),
         shinythemes, xlsx, zip
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: 93a38daf37d6ac3880b0886d5cd8ad2b
+MD5sum: e733457c2251175a04e94d72218b8063
 NeedsCompilation: yes
 
 Package: MpiIsoApp
