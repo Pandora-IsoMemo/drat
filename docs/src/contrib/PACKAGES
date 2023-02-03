@@ -30,7 +30,7 @@ Imports: dplyr, DT, httr, magrittr, openxlsx, readODS, readr, readxl,
         tidyr
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: f9e19319fd490bd9e7c9632dff96acbd
+MD5sum: fd223db15308e80178e4f438b15d5668
 NeedsCompilation: no
 
 Package: IsoAppTools
