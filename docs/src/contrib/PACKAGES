@@ -23,14 +23,14 @@ MD5sum: ac36aed873edad89aad6b4133e775cd1
 NeedsCompilation: no
 
 Package: DataTools
-Version: 23.02.6
+Version: 23.02.7
 Depends: R (>= 3.5.0)
 Imports: dplyr, DT, httr, futile.logger, magrittr, openxlsx, readODS,
         readr, readxl, RSQLite, shiny, shinyAce, shinyjs, shinyWidgets,
         templates, tidyr
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), utils
 License: GPL (>= 3)
-MD5sum: 902f51bb8452d55c735b68c3efc2b0f0
+MD5sum: 2c5281802f872fef3ac3015354022bb3
 NeedsCompilation: no
 
 Package: IsoAppTools
