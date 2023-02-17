@@ -122,7 +122,7 @@ Imports: colourpicker, dplyr, DT, futile.logger, DataTools (>= 23.1.6),
         shinyalert, shinyjs, shinythemes, tibble, zip
 Suggests: lintr (>= 1.0.2), testthat
 License: GPL (>= 3)
-MD5sum: b2a00aead514909738dbc284747b2ee1
+MD5sum: 7440d54cd80d1001f931e2f2c062d055
 NeedsCompilation: no
 
 Package: ReSources
