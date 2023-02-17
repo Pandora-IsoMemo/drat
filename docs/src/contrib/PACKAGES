@@ -136,5 +136,5 @@ Imports: abind, alphahull, car, coda, colourpicker, dplyr, DT,
 LinkingTo: nimble (>= 0.12.2)
 Suggests: lintr, testthat, MpiIsoApp (>= 1.2.5)
 License: GPL (>= 3)
-MD5sum: f868f8b1bed1102eb3ca2d790a0adc27
+MD5sum: 98f31d71666e2ec242f808c70681c93e
 NeedsCompilation: no
