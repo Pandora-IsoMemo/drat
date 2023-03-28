@@ -19,7 +19,7 @@ Imports: car, coda, BMSC (>= 0.7.7), dplyr, jsonlite, ggplot2, shiny,
         pROC, DT, Rcpp, readxl, readr, rstan (>= 2.21.2), tidyr
 Suggests: lintr, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 2fbfad029546fb03e821a2e8208f2f7d
+MD5sum: 3b9eb3d8551367eae4bd76e2a52a6fe8
 NeedsCompilation: no
 
 Package: DataTools
