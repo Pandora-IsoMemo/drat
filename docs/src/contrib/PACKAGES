@@ -74,21 +74,21 @@ MD5sum: b77af66604b92ff1110ae61a64671e17
 NeedsCompilation: yes
 
 Package: MpiIsoApp
-Version: 22.12.3.1
+Version: 23.04.1
 Depends: R (>= 3.5.0)
-Imports: animation, coda, colourpicker, DT (>= 0.4), futile.logger,
-        httr, jsonlite (>= 1.5), geometry (>= 0.4.0), ggplot2,
-        grDevices (>= 3.4.4), ks (>= 1.0.0), leaflet (>= 1.1.0),
-        magrittr (>= 1.5), maps (>= 3.2.0), mapview, MASS (>= 7.3.5),
-        mgcv (>= 1.8.23), openxlsx (>= 4.0.17), raster (>= 2.6.7),
-        readODS, readxl, readr, Rfast (>= 2.0.0), rgdal, RColorBrewer
-        (>= 1.1.2), rcarbon (>= 1.4.0), shiny (>= 1.0.5), shinyjs (>=
-        1.0), shinyMatrix (>= 0.2.1), shinythemes (>= 1.1.1),
-        shinyWidgets (>= 0.4.1), sp (>= 1.2.7), stringi (>= 1.1.7),
-        webshot, zip
+Imports: animation, coda, colourpicker, DataTools (>= 23.04.1), dplyr,
+        DT (>= 0.4), futile.logger, jsonlite (>= 1.5), geometry (>=
+        0.4.0), ggplot2, grDevices (>= 3.4.4), ks (>= 1.0.0), leaflet
+        (>= 1.1.0), magrittr (>= 1.5), maps (>= 3.2.0), mapview, MASS
+        (>= 7.3.5), mclust, mgcv (>= 1.8.23), openxlsx (>= 4.0.17),
+        pgdraw, raster (>= 2.6.7), rcarbon (>= 1.4.0), RColorBrewer (>=
+        1.1.2), Rfast (>= 2.0.0), rgdal, rgeos, rlang, shiny (>=
+        1.0.5), shinyjs (>= 1.0), shinyMatrix (>= 0.2.1), shinythemes
+        (>= 1.1.1), shinyWidgets (>= 0.4.1), sp (>= 1.2.7), stringi (>=
+        1.1.7), webshot, zip
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
 License: GPL (>= 3)
-MD5sum: e8309e7fef433b3d20b888d14bdddf7f
+MD5sum: d1574f0bc123e47f399beffcf9fac281
 NeedsCompilation: no
 
 Package: MpiIsoData
