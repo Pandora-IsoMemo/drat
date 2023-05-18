@@ -76,7 +76,7 @@ MD5sum: d11c6466b4a2d9a638ad1030f6405f42
 NeedsCompilation: yes
 
 Package: MpiIsoApp
-Version: 23.04.1.12
+Version: 23.04.1.13
 Depends: R (>= 3.5.0)
 Imports: animation, coda, colourpicker, DataTools (>= 23.05.2.2),
         dplyr, DT (>= 0.4), futile.logger, jsonlite (>= 1.5), geometry
@@ -90,7 +90,7 @@ Imports: animation, coda, colourpicker, DataTools (>= 23.05.2.2),
         stringi (>= 1.1.7), webshot, zip
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
 License: GPL (>= 3)
-MD5sum: bcfbaafbaf8ff21f3c2f37845630a816
+MD5sum: 6eb01ccffa2e441ef4bad93691e385b6
 NeedsCompilation: no
 
 Package: MpiIsoData
