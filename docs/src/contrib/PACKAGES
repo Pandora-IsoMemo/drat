@@ -12,15 +12,15 @@ MD5sum: b67cba2dcd2158f30b3756f898d9eb00
 NeedsCompilation: yes
 
 Package: BMSCApp
-Version: 23.07.0.1
+Version: 23.07.0.2
 Depends: R (>= 3.5.0)
-Imports: car, coda, BMSC (>= 23.07.1), dplyr, futile.logger, ggplot2,
+Imports: car, coda, BMSC (>= 23.07.1.1), dplyr, futile.logger, ggplot2,
         DataTools (>= 23.06.0.1), jsonlite, openxlsx, pROC, shiny,
         shinyjs, shinythemes, shinyWidgets, DT, Rcpp, rstan (>=
         2.21.2), tidyr, zip
 Suggests: lintr (>= 1.0.2), testthat
 License: GPL (>= 3)
-MD5sum: 5827a28315e940afe4fa81703cc913cc
+MD5sum: 0ccabebe336f1924d517083d6e4cb671
 NeedsCompilation: no
 
 Package: DataTools
