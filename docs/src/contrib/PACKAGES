@@ -1,5 +1,5 @@
 Package: BMSC
-Version: 23.07.1
+Version: 23.07.1.1
 Depends: R (>= 3.5.0), Rcpp (>= 1.0.0), methods
 Imports: dplyr (>= 0.7.4), ggplot2 (>= 2.2.1), loo (>= 2.0.0), rstan
         (>= 2.21.2), rstantools (>= 2.1.1), R.utils (>= 2.6.0), pROC,
@@ -8,7 +8,7 @@ LinkingTo: StanHeaders (>= 2.21.0-7), rstan (>= 2.21.2), BH (>=
         1.72.0), Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.3.0)
 Suggests: lintr, testthat, INWTUtils
 License: GPL (>= 3)
-MD5sum: e2335ed49de1380cc9e1704731ae2cfe
+MD5sum: b67cba2dcd2158f30b3756f898d9eb00
 NeedsCompilation: yes
 
 Package: BMSCApp
