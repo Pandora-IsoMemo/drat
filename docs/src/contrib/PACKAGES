@@ -136,7 +136,7 @@ Imports: colourpicker, DataTools (>= 23.06.0.1), dplyr, DT,
         rlang, shiny, shinyalert, shinyjs, shinythemes, tibble, zip
 Suggests: lintr (>= 1.0.2), testthat
 License: GPL (>= 3)
-MD5sum: c71becb7dfd6511e7d18941833d38fa8
+MD5sum: c4537a7793d71632023758fbc6d09498
 NeedsCompilation: no
 
 Package: ReSources
