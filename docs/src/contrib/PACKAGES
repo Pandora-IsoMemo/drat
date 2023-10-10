@@ -105,12 +105,12 @@ MD5sum: 3df35b9365dfeb27459125ed9685a565
 NeedsCompilation: no
 
 Package: MpiIsoData
-Version: 23.03.1.2
+Version: 23.03.1.10
 Imports: dbtools, dplyr, httr, futile.logger, magrittr, openxlsx,
         purrr, RMySQL, rvest, stringi, templates, tidyr, xml2
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: be0baa7af89e0270771718f49966ba7c
+MD5sum: 06bcc17d4943faf41cb8f988b12b1c43
 NeedsCompilation: no
 
 Package: OsteoBioR
