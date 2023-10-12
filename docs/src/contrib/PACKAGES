@@ -129,6 +129,14 @@ License: GPL (>= 3)
 MD5sum: 48ca9b680c7fd50bc0cbe5cfe1059026
 NeedsCompilation: yes
 
+Package: Pandora
+Version: 0.0.1
+Imports: httr, magrittr, shiny, stats
+Suggests: testthat, xml2
+License: GPL (>= 3)
+MD5sum: 043fdf44260bb338efff610c0f03e7a6
+NeedsCompilation: no
+
 Package: PlotR
 Version: 23.08.0
 Depends: R (>= 3.5.0)
