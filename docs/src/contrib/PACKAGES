@@ -83,7 +83,7 @@ Imports: dbtools (>= 0.2.9), dplyr (>= 0.7.4), futile.logger (>=
         tidyr (>= 0.8.1)
 Suggests: jsonlite (>= 1.5), lintr (>= 1.0.0), testthat (>= 1.0.2)
 License: GPL (>= 3)
-MD5sum: 74c51052286c9c7bcaf164c756d35dda
+MD5sum: 2c059c4bc4e4c8fc6b5721f75a5f1395
 NeedsCompilation: no
 
 Package: MpiIsoApp
