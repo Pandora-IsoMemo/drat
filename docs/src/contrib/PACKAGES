@@ -134,7 +134,7 @@ Version: 0.0.1
 Imports: httr, magrittr, shiny, stats
 Suggests: testthat, xml2
 License: GPL (>= 3)
-MD5sum: 043fdf44260bb338efff610c0f03e7a6
+MD5sum: 681651051687e03d3d1ba0b3d0e0f461
 NeedsCompilation: no
 
 Package: PlotR
