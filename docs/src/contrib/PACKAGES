@@ -76,14 +76,14 @@ MD5sum: e05d78193916cf492dc2b7d9bef0f2bb
 NeedsCompilation: yes
 
 Package: MpiIsoApi
-Version: 22.02.1
+Version: 23.04.1.8
 Depends: R (>= 3.4.0)
 Imports: dbtools (>= 0.2.9), dplyr (>= 0.7.4), futile.logger (>=
         1.4.0), httpuv, modules (>= 0.5.0), plumber (>= 0.3.2), rlang,
         tidyr (>= 0.8.1)
 Suggests: jsonlite (>= 1.5), lintr (>= 1.0.0), testthat (>= 1.0.2)
 License: GPL (>= 3)
-MD5sum: 4c7a7ecfa85ee40b94c2869c85291b55
+MD5sum: ef55fb87af4cee9fbdb2359f3bb0bab6
 NeedsCompilation: no
 
 Package: MpiIsoApp
