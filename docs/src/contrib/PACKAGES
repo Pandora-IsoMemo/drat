@@ -46,12 +46,12 @@ MD5sum: f406d7492faa25506b8ee5e041ccbad4
 NeedsCompilation: no
 
 Package: IsoMemo
-Version: 1.0.5001
+Version: 23.10.0
 Depends: R (>= 3.5.0)
-Imports: jsonlite, modules, curl
-Suggests: rmarkdown, knitr, testthat (>= 3.0.0)
+Imports: httr, jsonlite, modules
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: c7c724b4010c2ce6a94839871d2ca672
+MD5sum: 550eaf8e761f6067627b52d00916027c
 NeedsCompilation: no
 
 Package: IsomemoData
