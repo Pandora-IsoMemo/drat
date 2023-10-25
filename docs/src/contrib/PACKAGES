@@ -48,10 +48,10 @@ NeedsCompilation: no
 Package: IsoMemo
 Version: 23.10.0
 Depends: R (>= 3.5.0)
-Imports: httr, jsonlite, modules
+Imports: curl, jsonlite, modules
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: fc42a56d028274a1a0649c84b6d409dd
+MD5sum: f07b693f054003feae9aa1f2c2c9bda0
 NeedsCompilation: no
 
 Package: IsomemoData
