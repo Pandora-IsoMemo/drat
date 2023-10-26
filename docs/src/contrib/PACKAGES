@@ -63,6 +63,13 @@ License: GPL (>= 3)
 MD5sum: 9b79d797fbeabf2d0320cce1b154aa2d
 NeedsCompilation: no
 
+Package: MapR
+Version: 22.12.1
+Imports: magrittr, shiny, shinyjs
+License: GPL (>= 3)
+MD5sum: 056734220274a56df7517ebb21656bf3
+NeedsCompilation: no
+
 Package: mpiBpred
 Version: 23.08.0
 Depends: R (>= 4.0.0)
