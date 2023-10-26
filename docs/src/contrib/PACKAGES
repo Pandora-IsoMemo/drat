@@ -67,7 +67,7 @@ Package: MapR
 Version: 22.12.1
 Imports: magrittr, shiny, shinyjs
 License: GPL (>= 3)
-MD5sum: 92b65dbef1af0d1cc6a61070768785f8
+MD5sum: 742762b31ede1af82a208b418f263d95
 NeedsCompilation: no
 
 Package: mpiBpred
