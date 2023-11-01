@@ -20,7 +20,7 @@ Imports: car, coda, BMSC (>= 23.07.1.1), dplyr, futile.logger, ggplot2,
         2.21.2), tidyr, zip
 Suggests: lintr (>= 1.0.2), testthat
 License: GPL (>= 3)
-MD5sum: 480a56d82459dd671b488ab7ae81e627
+MD5sum: 3e63874dec3d73a9a10cbd0067514a8c
 NeedsCompilation: no
 
 Package: DataTools
