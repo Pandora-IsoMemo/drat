@@ -109,7 +109,7 @@ Imports: animation, coda, colourpicker, DataTools (>= 23.09.3), dplyr,
         webshot, yaml, zip
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
 License: GPL (>= 3)
-MD5sum: e9fe5f7f349da77d17ff46a403ced7b4
+MD5sum: 40dae96f3cb2348a77d4f74a5404b58e
 NeedsCompilation: no
 
 Package: MpiIsoData
