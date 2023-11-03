@@ -51,7 +51,7 @@ Depends: R (>= 3.5.0)
 Imports: curl, jsonlite, modules
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: d259a5ed4cf51a42ac2063b95bbf026b
+MD5sum: 95d7f19b6a5d9e781fea172ed3e3031a
 NeedsCompilation: no
 
 Package: IsomemoData
