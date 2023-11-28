@@ -170,3 +170,10 @@ Suggests: lintr, testthat, MpiIsoApp (>= 1.2.5)
 License: GPL (>= 3)
 MD5sum: b889c01be91518a578f98deb9d82e94f
 NeedsCompilation: no
+
+Package: TraceR
+Version: 23.11.1
+Suggests: testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 085ba7021325b5131934a3120cc367de
+NeedsCompilation: no
