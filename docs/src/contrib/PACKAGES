@@ -175,5 +175,5 @@ Package: TraceR
 Version: 23.11.1
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 0dbc9132c3be0e436830c6a6ef20eeee
+MD5sum: afd4c5c9e63e54aec6af7f79cce94b8e
 NeedsCompilation: no
