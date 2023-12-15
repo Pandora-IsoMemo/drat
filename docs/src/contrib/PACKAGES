@@ -138,12 +138,12 @@ MD5sum: f4866e227783543fcd52fbe0718fe668
 NeedsCompilation: yes
 
 Package: Pandora
-Version: 23.11.2
+Version: 23.12.0
 Imports: dplyr, curl, jsonlite, magrittr, openxlsx, readODS, readr,
         readxl, rlang, stats, yaml
-Suggests: testthat
+Suggests: knitr, qpdf, rmarkdown, testthat
 License: GPL (>= 3)
-MD5sum: 461efdd7a8bd84aabda789426108f1bd
+MD5sum: 885075aca723c1b921296c0955c65d8b
 NeedsCompilation: no
 
 Package: PlotR
