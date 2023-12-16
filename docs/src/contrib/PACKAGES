@@ -143,7 +143,7 @@ Imports: dplyr, curl, jsonlite, magrittr, openxlsx, readODS, readr,
         readxl, rlang, stats, yaml
 Suggests: knitr, qpdf, rmarkdown, testthat
 License: GPL (>= 3)
-MD5sum: ab1e1b2f13ecdcff0fc64813ab6c1fd4
+MD5sum: e2b94aad91890ebd88cf079052e3ad68
 NeedsCompilation: no
 
 Package: PlotR
