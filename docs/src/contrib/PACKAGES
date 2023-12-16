@@ -141,9 +141,9 @@ Package: Pandora
 Version: 23.12.0
 Imports: dplyr, curl, jsonlite, magrittr, openxlsx, readODS, readr,
         readxl, rlang, stats, yaml
-Suggests: knitr, qpdf, rmarkdown, testthat
+Suggests: knitr, rmarkdown, testthat
 License: GPL (>= 3)
-MD5sum: 5f7e024636467a5f0de7e64d4507b74c
+MD5sum: 84ed80fe6d291d5ef75ceb25c7be71bf
 NeedsCompilation: no
 
 Package: PlotR
