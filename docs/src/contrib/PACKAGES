@@ -32,7 +32,7 @@ Imports: dplyr, DT, htmltools, httr, futile.logger, magrittr, openxlsx,
         utils, yaml, zip
 Suggests: devtools, lintr (>= 1.0.2), testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: 435402c66784de08fc103b5c109fee30
+MD5sum: 112b6c50dcf480ff38fa28d4db43b74c
 NeedsCompilation: no
 
 Package: IsoAppTools
