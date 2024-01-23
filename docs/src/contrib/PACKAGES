@@ -64,10 +64,12 @@ MD5sum: 9b79d797fbeabf2d0320cce1b154aa2d
 NeedsCompilation: no
 
 Package: MapR
-Version: 22.12.1
-Imports: magrittr, shiny, shinyjs
+Version: 24.1.0
+Imports: colourpicker, DataTools (>= 23.12.2), magrittr, pastclim,
+        rjson, shiny, shinyjs, shinyWidgets, terra, yaml
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: f43a1a04469886ac3d2a124faf26d37a
+MD5sum: 9e41e437215d30ec8be889048a446ac5
 NeedsCompilation: no
 
 Package: mpiBpred
