@@ -69,7 +69,7 @@ Imports: colourpicker, DataTools (>= 23.12.2), magrittr, pastclim,
         rjson, shiny, shinyjs, shinyWidgets, terra, yaml
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: d1da3ab04c0af3fa05c98fce427872cb
+MD5sum: 7157d63f40525e2601e6385a333448dc
 NeedsCompilation: no
 
 Package: mpiBpred
