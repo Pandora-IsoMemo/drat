@@ -175,9 +175,11 @@ MD5sum: b889c01be91518a578f98deb9d82e94f
 NeedsCompilation: no
 
 Package: shinyTools
-Version: 24.1.0
+Version: 24.2.0
+Imports: shiny
+Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 1373e0c7cdf6793078b7386f869bc3f7
+MD5sum: a5cffa6a70919d1f8cfd628771d17856
 NeedsCompilation: no
 
 Package: TraceR
