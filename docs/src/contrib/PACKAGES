@@ -175,11 +175,11 @@ MD5sum: b889c01be91518a578f98deb9d82e94f
 NeedsCompilation: no
 
 Package: shinyTools
-Version: 24.3.1
+Version: 24.03.1
 Imports: openxlsx, rjson, shiny, utils
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 4ecaa500d6ffeb906d450d78027ce475
+MD5sum: 6257b1200023cbd35cdf1cdc086c218e
 NeedsCompilation: no
 
 Package: TraceR
