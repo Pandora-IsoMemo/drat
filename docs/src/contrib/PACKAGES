@@ -179,7 +179,7 @@ Version: 24.3.0
 Imports: openxlsx, rjson, shiny, utils
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 391966e12c360bd10a1b63229704d554
+MD5sum: 8a0eee14ba6f8c53d6067c55b0d10bdc
 NeedsCompilation: no
 
 Package: TraceR
