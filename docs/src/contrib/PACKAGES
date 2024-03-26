@@ -24,7 +24,7 @@ MD5sum: 3e63874dec3d73a9a10cbd0067514a8c
 NeedsCompilation: no
 
 Package: DataTools
-Version: 24.03.0
+Version: 24.03.0.1
 Depends: R (>= 3.5.0)
 Imports: data.table, dplyr, DT, htmltools, httr, futile.logger,
         jsonlite, magrittr, openxlsx, readxl, Pandora (>= 23.12.0),
@@ -32,7 +32,7 @@ Imports: data.table, dplyr, DT, htmltools, httr, futile.logger,
         templates, tidyr, urltools, utils, yaml, zip
 Suggests: devtools, lintr (>= 1.0.2), testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: 680afd9965854fb8203cd3a73276703b
+MD5sum: 9c8560bd037baf2e65d3543a4809b109
 NeedsCompilation: no
 
 Package: IsoAppTools
