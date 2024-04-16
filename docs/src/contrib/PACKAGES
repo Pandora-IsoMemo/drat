@@ -184,8 +184,8 @@ MD5sum: 9e9eb1277c74a6fb7266e90757b62b57
 NeedsCompilation: no
 
 Package: TraceR
-Version: 23.11.1
+Version: 24.04.01
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: afd4c5c9e63e54aec6af7f79cce94b8e
+MD5sum: da66e851b8438bad27e2fe242b334eb7
 NeedsCompilation: no
