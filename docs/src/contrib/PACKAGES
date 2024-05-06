@@ -96,22 +96,22 @@ MD5sum: d6ef823576e225879402caa471ceb697
 NeedsCompilation: no
 
 Package: MpiIsoApp
-Version: 23.12.0.2
+Version: 24.04.1
 Depends: R (>= 3.5.0)
-Imports: animation, coda, colourpicker, DataTools (>= 23.12.2), dplyr,
-        DT (>= 0.4), futile.logger, jsonlite (>= 1.5), geometry (>=
-        0.4.0), ggplot2, grDevices (>= 3.4.4), IsoMemo (>= 23.10.1), ks
-        (>= 1.0.0), leaflet (>= 1.1.0), magick, magrittr (>= 1.5), maps
-        (>= 3.2.0), mapview, MASS (>= 7.3.5), mclust, mgcv (>= 1.8.23),
-        mice, openxlsx (>= 4.0.17), pgdraw, raster (>= 2.6.7), rcarbon
-        (>= 1.4.0), RColorBrewer (>= 1.1.2), Rfast (>= 2.0.0), rgdal,
-        rgeos, rlang, shiny (>= 1.0.5), shinycssloaders, shinyjs (>=
-        1.0), shinyMatrix (>= 0.2.1), shinythemes (>= 1.1.1),
-        shinyWidgets (>= 0.4.1), sp (>= 1.2.7), stringi (>= 1.1.7),
-        webshot, yaml, zip
+Imports: animation, coda, colourpicker, DataTools (>= 24.04.3), dplyr,
+        DT (>= 0.4), elevatr (>= 0.4.2), futile.logger, jsonlite (>=
+        1.5), geometry (>= 0.4.0), ggplot2, grDevices (>= 3.4.4),
+        IsoMemo (>= 23.10.1), ks (>= 1.0.0), leaflet (>= 1.1.0),
+        magick, magrittr (>= 1.5), maps (>= 3.2.0), mapview, MASS (>=
+        7.3.5), mclust, mgcv (>= 1.8.23), mice, openxlsx (>= 4.0.17),
+        pgdraw, raster (>= 2.6.7), rcarbon (>= 1.4.0), RColorBrewer (>=
+        1.1.2), Rfast (>= 2.0.0), rgdal, rgeos, rlang, shiny (>=
+        1.0.5), shinycssloaders, shinyjs (>= 1.0), shinyMatrix (>=
+        0.2.1), shinythemes (>= 1.1.1), shinyWidgets (>= 0.4.1), sp (>=
+        1.2.7), stringi (>= 1.1.7), webshot, yaml, zip
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
 License: GPL (>= 3)
-MD5sum: c6f82b8aa9a9c1e04dfa11078f9da3cb
+MD5sum: cd8e5f61a9831c74788fa454a089ae6b
 NeedsCompilation: no
 
 Package: MpiIsoData
