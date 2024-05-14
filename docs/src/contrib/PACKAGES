@@ -175,12 +175,13 @@ MD5sum: 5c5ce60faaf7ce92829cca6ffa77e23b
 NeedsCompilation: no
 
 Package: shinyTools
-Version: 24.04.2
+Version: 24.05.0
 Imports: colourpicker, DataTools, ggplot2, grDevices, magrittr,
-        openxlsx, plotly, rjson, shiny, shinyjs, utils, yaml
+        openxlsx, plotly, rjson, shiny, shinyjs, shinyWidgets, utils,
+        yaml
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: c00f0511fc176a5271f7215448c3a6e8
+MD5sum: 3b45a37a5e4ad0a331e8bedd1649e6c9
 NeedsCompilation: no
 
 Package: TraceR
