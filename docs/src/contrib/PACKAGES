@@ -171,7 +171,7 @@ Imports: abind, alphahull, car, coda, colourpicker, DataTools (>=
 LinkingTo: nimble (>= 0.12.2)
 Suggests: lintr, testthat, MpiIsoApp (>= 1.2.5)
 License: GPL (>= 3)
-MD5sum: b6c869a9b607c248835630a2f9ded01c
+MD5sum: c42c38f24bd7402981e1237f89e4fdfa
 NeedsCompilation: no
 
 Package: shinyTools
