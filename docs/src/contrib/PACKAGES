@@ -136,7 +136,7 @@ LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0),
         Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)
 Suggests: lintr, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 458c85cdbae07b2c89d66a76379a6159
+MD5sum: 66f6df961062120b16ddf8cc59f27ae8
 NeedsCompilation: yes
 
 Package: Pandora
