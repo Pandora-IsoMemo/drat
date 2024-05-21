@@ -81,7 +81,7 @@ Imports: coda, dplyr, ggplot2 (>= 2.2.1), DataTools (>= 24.04.2), httr,
         (>= 24.03.3), yaml
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: 6dc10ae965200bbbc321d8f8a08eba37
+MD5sum: e24332a67ed87adbc4eda8bd7dfe8599
 NeedsCompilation: yes
 
 Package: MpiIsoApi
