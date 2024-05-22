@@ -24,15 +24,16 @@ MD5sum: 5e15e3b90f6457f74bde56aa01706663
 NeedsCompilation: no
 
 Package: DataTools
-Version: 24.05.0.2
+Version: 24.05.1
 Depends: R (>= 3.5.0)
 Imports: data.table, dplyr, DT, htmltools, httr, futile.logger,
-        jsonlite, magrittr, openxlsx, readxl, Pandora (>= 23.12.0),
-        RSQLite, shiny, shinyAce, shinyalert, shinyjs, shinyWidgets,
-        templates, tidyr, urltools, utils, yaml, zip
+        jsonlite, lifecycle, magrittr, openxlsx, readxl, Pandora (>=
+        23.12.0), RSQLite, shiny, shinyAce, shinyalert, shinyjs,
+        shinyTools, shinyWidgets, templates, tidyr, urltools, utils,
+        yaml, zip
 Suggests: devtools, lintr (>= 1.0.2), testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: ff1f087cbcdccc6c14a6206c6e86de78
+MD5sum: 0ae78d201c185dac30a68d6333f8dd3b
 NeedsCompilation: no
 
 Package: IsoAppTools
