@@ -23,6 +23,18 @@ License: GPL (>= 3)
 MD5sum: 5e15e3b90f6457f74bde56aa01706663
 NeedsCompilation: no
 
+Package: Bpred
+Version: 24.05.0
+Depends: R (>= 4.0.0)
+Imports: coda, dplyr, ggplot2 (>= 2.2.1), DataTools (>= 24.04.2), httr,
+        magrittr, mice, modules, rsync, shiny, shinyMatrix (>= 0.8.0),
+        shinyWidgets, shinycssloaders, shinyjs, shinythemes, shinyTools
+        (>= 24.03.3), yaml
+Suggests: lintr, testthat
+License: GPL (>= 3)
+MD5sum: 68c1e733ce1108416a6d5e31c8263d43
+NeedsCompilation: yes
+
 Package: DataTools
 Version: 24.05.1.4
 Depends: R (>= 3.5.0)
