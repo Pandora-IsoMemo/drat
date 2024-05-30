@@ -32,7 +32,7 @@ Imports: coda, dplyr, ggplot2 (>= 2.2.1), DataTools (>= 24.04.2), httr,
         (>= 24.03.3), yaml
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: 68c1e733ce1108416a6d5e31c8263d43
+MD5sum: 9f8d85d25def7f065d03057eb391dd9d
 NeedsCompilation: yes
 
 Package: DataTools
