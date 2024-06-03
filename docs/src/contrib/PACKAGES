@@ -20,7 +20,7 @@ Imports: car, coda, BMSC (>= 23.07.1.1), dplyr, futile.logger, ggplot2,
         2.21.2), tidyr, yaml
 Suggests: lintr (>= 1.0.2), testthat
 License: GPL (>= 3)
-MD5sum: 5e15e3b90f6457f74bde56aa01706663
+MD5sum: 7e8be52dd1cc199cf7005ea7e4183f67
 NeedsCompilation: no
 
 Package: Bpred
