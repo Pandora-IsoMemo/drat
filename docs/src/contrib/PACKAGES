@@ -76,7 +76,7 @@ Imports: animation, coda, colourpicker, DataTools (>= 24.04.3), dplyr,
         1.2.7), stringi (>= 1.1.7), webshot, yaml, zip
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
 License: GPL (>= 3)
-MD5sum: bb9ef1637469a14f4af436d35d70cd02
+MD5sum: 7316d3b3e5b94c9a7322a048502a86c9
 NeedsCompilation: no
 
 Package: IsoAppTools
