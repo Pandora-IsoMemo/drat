@@ -205,7 +205,7 @@ MD5sum: ea1f65aac67a2a1aef11a083e455105b
 NeedsCompilation: no
 
 Package: ReSources
-Version: 24.05.0
+Version: 24.05.0.1
 Depends: R (>= 3.5.0), nimble (>= 0.6.12)
 Imports: abind, alphahull, car, coda, colourpicker, DataTools (>=
         23.12.2), dplyr, DT, jsonlite, futile.logger, ggplot2,
@@ -216,7 +216,7 @@ Imports: abind, alphahull, car, coda, colourpicker, DataTools (>=
 LinkingTo: nimble (>= 0.12.2)
 Suggests: lintr, testthat, MpiIsoApp (>= 1.2.5)
 License: GPL (>= 3)
-MD5sum: c42c38f24bd7402981e1237f89e4fdfa
+MD5sum: c26c7607f114d9a82c92852c4a595187
 NeedsCompilation: no
 
 Package: shinyTools
