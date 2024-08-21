@@ -1,3 +1,16 @@
+Package: BMSC
+Version: 23.07.1.2
+Depends: R (>= 3.5.0), Rcpp (>= 1.0.0), methods
+Imports: dplyr (>= 0.7.4), ggplot2 (>= 2.2.1), loo (>= 2.0.0), rstan
+        (>= 2.21.2), rstantools (>= 2.1.1), R.utils (>= 2.6.0), pROC,
+        mice
+LinkingTo: StanHeaders (>= 2.21.0-7), rstan (>= 2.21.2), BH (>=
+        1.72.0), Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.3.0)
+Suggests: lintr, testthat, INWTUtils
+License: GPL (>= 3)
+MD5sum: fa43f6248853bc61910939ab2e08375f
+NeedsCompilation: yes
+
 Package: BMSCApp
 Version: 24.04.0
 Depends: R (>= 3.5.0)
@@ -22,19 +35,6 @@ License: GPL (>= 3)
 MD5sum: 10493e9e833875dbfac148f0cdceb40a
 NeedsCompilation: no
 
-Package: BMSC
-Version: 23.07.1.2
-Depends: R (>= 3.5.0), Rcpp (>= 1.0.0), methods
-Imports: dplyr (>= 0.7.4), ggplot2 (>= 2.2.1), loo (>= 2.0.0), rstan
-        (>= 2.21.2), rstantools (>= 2.1.1), R.utils (>= 2.6.0), pROC,
-        mice
-LinkingTo: StanHeaders (>= 2.21.0-7), rstan (>= 2.21.2), BH (>=
-        1.72.0), Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.3.0)
-Suggests: lintr, testthat, INWTUtils
-License: GPL (>= 3)
-MD5sum: fa43f6248853bc61910939ab2e08375f
-NeedsCompilation: yes
-
 Package: Bpred
 Version: 24.05.0
 Depends: R (>= 4.0.0)
@@ -44,8 +44,21 @@ Imports: coda, dplyr, ggplot2 (>= 2.2.1), DataTools (>= 24.04.2), httr,
         (>= 24.03.3), yaml
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: 9f8d85d25def7f065d03057eb391dd9d
+MD5sum: e49a8375d269821c82332e7fe839efd3
 NeedsCompilation: yes
+
+Package: DataTools
+Version: 24.08.1
+Depends: R (>= 3.5.0)
+Imports: data.table, dplyr, DT, htmltools, httr, futile.logger,
+        jsonlite, lifecycle, magrittr, openxlsx, readxl, Pandora (>=
+        23.12.0), RSQLite, shiny, shinyAce, shinyalert, shinyjs,
+        shinyTools, shinyWidgets, templates, tidyr, urltools, utils,
+        yaml, zip
+Suggests: devtools, lintr (>= 1.0.2), testthat (>= 2.0.0)
+License: GPL (>= 3)
+MD5sum: e7d0a49715e5cb8db27141b46a8b59e4
+NeedsCompilation: no
 
 Package: DSSM
 Version: 24.06.0
@@ -64,19 +77,6 @@ Imports: animation, coda, colourpicker, DataTools (>= 24.04.3), dplyr,
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
 License: GPL (>= 3)
 MD5sum: 7316d3b3e5b94c9a7322a048502a86c9
-NeedsCompilation: no
-
-Package: DataTools
-Version: 24.08.1
-Depends: R (>= 3.5.0)
-Imports: data.table, dplyr, DT, htmltools, httr, futile.logger,
-        jsonlite, lifecycle, magrittr, openxlsx, readxl, Pandora (>=
-        23.12.0), RSQLite, shiny, shinyAce, shinyalert, shinyjs,
-        shinyTools, shinyWidgets, templates, tidyr, urltools, utils,
-        yaml, zip
-Suggests: devtools, lintr (>= 1.0.2), testthat (>= 2.0.0)
-License: GPL (>= 3)
-MD5sum: e7d0a49715e5cb8db27141b46a8b59e4
 NeedsCompilation: no
 
 Package: IsoAppTools
@@ -115,6 +115,18 @@ Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: ceadcdec000cf906554e5edb6c4123e7
 NeedsCompilation: no
+
+Package: mpiBpred
+Version: 24.03.0.4
+Depends: R (>= 4.0.0)
+Imports: coda, dplyr, ggplot2 (>= 2.2.1), DataTools (>= 24.04.2), httr,
+        magrittr, mice, modules, rsync, shiny, shinyMatrix (>= 0.8.0),
+        shinyWidgets, shinycssloaders, shinyjs, shinythemes, shinyTools
+        (>= 24.03.3), yaml
+Suggests: lintr, testthat
+License: GPL (>= 3)
+MD5sum: e24332a67ed87adbc4eda8bd7dfe8599
+NeedsCompilation: yes
 
 Package: MpiIsoApi
 Version: 23.04.1.9
@@ -172,6 +184,13 @@ License: GPL (>= 3)
 MD5sum: 8ad9445ccf1e2cd62b65dff4d2f9f822
 NeedsCompilation: yes
 
+Package: oxcAARS
+Version: 24.08.0
+Imports: magrittr, oxcAAR, shiny
+License: GPL (>= 3)
+MD5sum: 97288a31e3196a8ac3d2022ebdb07c47
+NeedsCompilation: no
+
 Package: Pandora
 Version: 24.2.0
 Imports: dplyr, curl, jsonlite, magrittr, openxlsx, readODS, readr,
@@ -207,33 +226,6 @@ License: GPL (>= 3)
 MD5sum: c26c7607f114d9a82c92852c4a595187
 NeedsCompilation: no
 
-Package: TraceR
-Version: 24.06.1
-Imports: DiagrammeR, jsonlite, shiny, shinyalert
-Suggests: testthat (>= 3.0.0)
-License: GPL (>= 3)
-MD5sum: df6ee046aa09da75caef73e194b17757
-NeedsCompilation: no
-
-Package: mpiBpred
-Version: 24.03.0.4
-Depends: R (>= 4.0.0)
-Imports: coda, dplyr, ggplot2 (>= 2.2.1), DataTools (>= 24.04.2), httr,
-        magrittr, mice, modules, rsync, shiny, shinyMatrix (>= 0.8.0),
-        shinyWidgets, shinycssloaders, shinyjs, shinythemes, shinyTools
-        (>= 24.03.3), yaml
-Suggests: lintr, testthat
-License: GPL (>= 3)
-MD5sum: e24332a67ed87adbc4eda8bd7dfe8599
-NeedsCompilation: yes
-
-Package: oxcAARS
-Version: 24.08.0
-Imports: magrittr, oxcAAR, shiny
-License: GPL (>= 3)
-MD5sum: 97288a31e3196a8ac3d2022ebdb07c47
-NeedsCompilation: no
-
 Package: shinyTools
 Version: 24.05.3.2
 Imports: colourpicker, ggplot2, grDevices, magrittr, openxlsx, plotly,
@@ -241,4 +233,12 @@ Imports: colourpicker, ggplot2, grDevices, magrittr, openxlsx, plotly,
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: b55df7c67bfed0c635ecf2d734c4b96b
+NeedsCompilation: no
+
+Package: TraceR
+Version: 24.06.1
+Imports: DiagrammeR, jsonlite, shiny, shinyalert
+Suggests: testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: df6ee046aa09da75caef73e194b17757
 NeedsCompilation: no
