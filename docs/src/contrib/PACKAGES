@@ -225,7 +225,7 @@ Imports: colourpicker, ggplot2, grDevices, magrittr, openxlsx, plotly,
         rjson, shiny, shinyalert, shinyjs, shinyWidgets, utils, yaml
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 093a1bd1e1b9ab07c28ee3c1cc98b58d
+MD5sum: b55df7c67bfed0c635ecf2d734c4b96b
 NeedsCompilation: no
 
 Package: TraceR
