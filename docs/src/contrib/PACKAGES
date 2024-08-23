@@ -47,6 +47,14 @@ License: GPL (>= 3)
 MD5sum: 268187a0d8ee84d66093204b98748a04
 NeedsCompilation: yes
 
+Package: CausalR
+Version: 24.06.1
+Imports: CausalImpact, DataTools, ggplot2, readxl, rlang, shiny,
+        shinythemes, stringr, svglite, zoo
+License: GPL (>= 3)
+MD5sum: c2642865fb3cd8048047af4cc47812f6
+NeedsCompilation: no
+
 Package: DataTools
 Version: 24.08.2
 Depends: R (>= 3.5.0)
