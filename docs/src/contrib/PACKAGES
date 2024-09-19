@@ -65,7 +65,7 @@ Imports: data.table, dplyr, DT, htmltools, httr, futile.logger,
         yaml, zip
 Suggests: devtools, lintr (>= 1.0.2), testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: 91ed469e3b174f53589cf22f8c96bb8d
+MD5sum: 47792ca131208c4024ea412b468821f5
 NeedsCompilation: no
 
 Package: DSSM
