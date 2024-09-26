@@ -234,7 +234,7 @@ Package: deBInferS
 Version: 24.08.0
 Imports: deBInfer, magrittr, shiny
 License: GPL (>= 3)
-MD5sum: 07f08816bd0e903e772da9ac45527010
+MD5sum: ad6c107f4735a2350a28aeb7c05d2e9e
 NeedsCompilation: no
 
 Package: mpiBpred
