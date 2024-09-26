@@ -230,6 +230,13 @@ License: GPL (>= 3)
 MD5sum: df6ee046aa09da75caef73e194b17757
 NeedsCompilation: no
 
+Package: deBInferS
+Version: 24.08.0
+Imports: deBInfer, magrittr, shiny
+License: GPL (>= 3)
+MD5sum: 07f08816bd0e903e772da9ac45527010
+NeedsCompilation: no
+
 Package: mpiBpred
 Version: 24.03.0.4
 Depends: R (>= 4.0.0)
