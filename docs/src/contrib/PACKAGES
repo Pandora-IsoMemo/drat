@@ -2,7 +2,7 @@ Package: ABMS
 Version: 24.08.0
 Imports: ABM, magrittr, shiny
 License: GPL (>= 3)
-MD5sum: d938cb1ed4a339a11ba309e17c624852
+MD5sum: 811f03012e3b2a48bc3440dadebde84d
 NeedsCompilation: no
 
 Package: BMSCApp
