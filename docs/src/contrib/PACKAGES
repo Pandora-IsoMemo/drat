@@ -62,6 +62,26 @@ License: GPL (>= 3)
 MD5sum: 42737ac5ac7c3ab7bf89db72e7774f1b
 NeedsCompilation: no
 
+Package: DataTools
+Version: 24.09.1
+Depends: R (>= 3.5.0)
+Imports: data.table, dplyr, DT, htmltools, httr, futile.logger,
+        jsonlite, lifecycle, magrittr, openxlsx, readxl, Pandora (>=
+        23.12.0), RSQLite, shiny, shinyAce, shinyalert, shinyjs,
+        shinyTools, shinyWidgets, templates, tidyr, urltools, utils,
+        yaml, zip
+Suggests: devtools, lintr (>= 1.0.2), testthat (>= 2.0.0)
+License: GPL (>= 3)
+MD5sum: 2d91020867c64d5596db0517aaf6a0cc
+NeedsCompilation: no
+
+Package: deBInferS
+Version: 24.08.0
+Imports: deBInfer, magrittr, shiny
+License: GPL (>= 3)
+MD5sum: ad6c107f4735a2350a28aeb7c05d2e9e
+NeedsCompilation: no
+
 Package: DSSM
 Version: 24.06.0
 Depends: R (>= 3.5.0)
@@ -79,19 +99,6 @@ Imports: animation, coda, colourpicker, DataTools (>= 24.04.3), dplyr,
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
 License: GPL (>= 3)
 MD5sum: 7316d3b3e5b94c9a7322a048502a86c9
-NeedsCompilation: no
-
-Package: DataTools
-Version: 24.09.0
-Depends: R (>= 3.5.0)
-Imports: data.table, dplyr, DT, htmltools, httr, futile.logger,
-        jsonlite, lifecycle, magrittr, openxlsx, readxl, Pandora (>=
-        23.12.0), RSQLite, shiny, shinyAce, shinyalert, shinyjs,
-        shinyTools, shinyWidgets, templates, tidyr, urltools, utils,
-        yaml, zip
-Suggests: devtools, lintr (>= 1.0.2), testthat (>= 2.0.0)
-License: GPL (>= 3)
-MD5sum: 8defd3fcf9862596ed9704feb556bbaf
 NeedsCompilation: no
 
 Package: IsoAppTools
@@ -130,6 +137,18 @@ Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: ceadcdec000cf906554e5edb6c4123e7
 NeedsCompilation: no
+
+Package: mpiBpred
+Version: 24.03.0.4
+Depends: R (>= 4.0.0)
+Imports: coda, dplyr, ggplot2 (>= 2.2.1), DataTools (>= 24.04.2), httr,
+        magrittr, mice, modules, rsync, shiny, shinyMatrix (>= 0.8.0),
+        shinyWidgets, shinycssloaders, shinyjs, shinythemes, shinyTools
+        (>= 24.03.3), yaml
+Suggests: lintr, testthat
+License: GPL (>= 3)
+MD5sum: e24332a67ed87adbc4eda8bd7dfe8599
+NeedsCompilation: yes
 
 Package: MpiIsoApi
 Version: 23.04.1.9
@@ -187,6 +206,13 @@ License: GPL (>= 3)
 MD5sum: 0b0041043a363059425eb18bef5041f2
 NeedsCompilation: yes
 
+Package: oxcAARS
+Version: 24.08.0
+Imports: magrittr, oxcAAR, shiny
+License: GPL (>= 3)
+MD5sum: 97288a31e3196a8ac3d2022ebdb07c47
+NeedsCompilation: no
+
 Package: Pandora
 Version: 24.2.0
 Imports: dplyr, curl, jsonlite, magrittr, openxlsx, readODS, readr,
@@ -222,41 +248,6 @@ License: GPL (>= 3)
 MD5sum: 19cca84db521d32e2fbcc2747f54a4bb
 NeedsCompilation: no
 
-Package: TraceR
-Version: 24.09.0
-Imports: DataTools (>= 24.07.0), DiagrammeR, futile.logger, jsonlite,
-        magrittr, shiny, shinyalert, yaml
-Suggests: testthat (>= 3.0.0)
-License: GPL (>= 3)
-MD5sum: 416c064c0859c79978dedbaa3ba96e3f
-NeedsCompilation: no
-
-Package: deBInferS
-Version: 24.08.0
-Imports: deBInfer, magrittr, shiny
-License: GPL (>= 3)
-MD5sum: ad6c107f4735a2350a28aeb7c05d2e9e
-NeedsCompilation: no
-
-Package: mpiBpred
-Version: 24.03.0.4
-Depends: R (>= 4.0.0)
-Imports: coda, dplyr, ggplot2 (>= 2.2.1), DataTools (>= 24.04.2), httr,
-        magrittr, mice, modules, rsync, shiny, shinyMatrix (>= 0.8.0),
-        shinyWidgets, shinycssloaders, shinyjs, shinythemes, shinyTools
-        (>= 24.03.3), yaml
-Suggests: lintr, testthat
-License: GPL (>= 3)
-MD5sum: e24332a67ed87adbc4eda8bd7dfe8599
-NeedsCompilation: yes
-
-Package: oxcAARS
-Version: 24.08.0
-Imports: magrittr, oxcAAR, shiny
-License: GPL (>= 3)
-MD5sum: 97288a31e3196a8ac3d2022ebdb07c47
-NeedsCompilation: no
-
 Package: shinyTools
 Version: 24.09.0
 Imports: colourpicker, ggplot2, grDevices, magrittr, openxlsx, plotly,
@@ -264,4 +255,13 @@ Imports: colourpicker, ggplot2, grDevices, magrittr, openxlsx, plotly,
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
 MD5sum: 7186e08bca9508ca9d954d9ef97bf588
+NeedsCompilation: no
+
+Package: TraceR
+Version: 24.09.0
+Imports: DataTools (>= 24.07.0), DiagrammeR, futile.logger, jsonlite,
+        magrittr, shiny, shinyalert, yaml
+Suggests: testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: 416c064c0859c79978dedbaa3ba96e3f
 NeedsCompilation: no
