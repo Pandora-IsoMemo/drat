@@ -59,7 +59,7 @@ Version: 24.06.1
 Imports: CausalImpact, DataTools, ggplot2, readxl, rlang, shiny,
         shinythemes, stringr, svglite, zoo
 License: GPL (>= 3)
-MD5sum: ae24c552c35e61fcbba28413e99b8fb2
+MD5sum: 42737ac5ac7c3ab7bf89db72e7774f1b
 NeedsCompilation: no
 
 Package: DataTools
