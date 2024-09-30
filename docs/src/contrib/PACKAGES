@@ -83,22 +83,23 @@ MD5sum: ad6c107f4735a2350a28aeb7c05d2e9e
 NeedsCompilation: no
 
 Package: DSSM
-Version: 24.06.0
+Version: 24.08.1
 Depends: R (>= 3.5.0)
 Imports: animation, coda, colourpicker, DataTools (>= 24.04.3), dplyr,
         DT (>= 0.4), elevatr (>= 0.4.2), futile.logger, jsonlite (>=
         1.5), geometry (>= 0.4.0), ggplot2, grDevices (>= 3.4.4),
         IsoMemo (>= 23.10.1), ks (>= 1.0.0), leaflet (>= 1.1.0),
-        magick, magrittr (>= 1.5), maps (>= 3.2.0), mapview, MASS (>=
-        7.3.5), mclust, mgcv (>= 1.8.23), mice, openxlsx (>= 4.0.17),
-        pgdraw, raster (>= 2.6.7), rcarbon (>= 1.4.0), RColorBrewer (>=
-        1.1.2), Rfast (>= 2.0.0), rlang, shiny (>= 1.0.5),
-        shinycssloaders, shinyjs (>= 1.0), shinyMatrix (>= 0.2.1),
-        shinythemes (>= 1.1.1), shinyWidgets (>= 0.4.1), sf, sp (>=
-        1.2.7), stringi (>= 1.1.7), webshot, yaml, zip
-Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9)
+        magick, maps (>= 3.2.0), mapview, MASS (>= 7.3.5), mclust, mgcv
+        (>= 1.8.23), mice, openxlsx (>= 4.0.17), pgdraw, raster (>=
+        2.6.7), rcarbon (>= 1.4.0), RColorBrewer (>= 1.1.2), Rfast (>=
+        2.0.0), rlang, shiny (>= 1.0.5), shinycssloaders, shinyjs (>=
+        1.0), shinyMatrix (>= 0.2.1), shinythemes (>= 1.1.1),
+        shinyWidgets (>= 0.4.1), sf, sp (>= 1.2.7), stringi (>= 1.1.7),
+        webshot, yaml, zip
+Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9),
+        knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: 7316d3b3e5b94c9a7322a048502a86c9
+MD5sum: 7a91ce050ad1481978bc9d9adda0790a
 NeedsCompilation: no
 
 Package: IsoAppTools
