@@ -31,15 +31,15 @@ MD5sum: 7e8be52dd1cc199cf7005ea7e4183f67
 NeedsCompilation: no
 
 Package: BMSCS
-Version: 24.06.0
+Version: 24.10.0
 Depends: R (>= 3.5.0)
 Imports: car, coda, BMSC (>= 23.07.1.1), dplyr, futile.logger, ggplot2,
-        DataTools (>= 24.04.2), jsonlite, openxlsx, pROC, shiny,
-        shinyjs, shinythemes, shinyWidgets, DT, Rcpp, rstan (>=
+        DataTools (>= 24.04.2), pROC, shiny, shinyjs, shinythemes,
+        shinyTools (>= 24.04.2), shinyWidgets, DT, Rcpp, rstan (>=
         2.21.2), tidyr, yaml
 Suggests: lintr (>= 1.0.2), testthat
 License: GPL (>= 3)
-MD5sum: 10493e9e833875dbfac148f0cdceb40a
+MD5sum: 7424649051a35bfc889f06905b9dee1c
 NeedsCompilation: no
 
 Package: Bpred
