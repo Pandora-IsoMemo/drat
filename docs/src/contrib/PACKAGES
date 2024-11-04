@@ -72,7 +72,7 @@ Imports: data.table, dplyr, DT, htmltools, httr, futile.logger,
         yaml, zip
 Suggests: devtools, lintr (>= 1.0.2), testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: c48281f31df73a7ac634c88a3c8a2f95
+MD5sum: 6dccf63afa42e37338f48a61cedce967
 NeedsCompilation: no
 
 Package: deBInferS
