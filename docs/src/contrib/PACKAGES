@@ -63,13 +63,13 @@ MD5sum: a9c764d7ea15dfcaeeb5d32ca02678a5
 NeedsCompilation: no
 
 Package: ChangeR
-Version: 24.11.0.2
+Version: 24.11.0.3
 Imports: DataTools (>= 24.10.0), DT, futile.logger, loo, magrittr, mcp,
         shiny, shinycssloaders, shinyjs, shinyTools (>= 24.10.1),
         stats, utils, yaml, zoo
 Suggests: rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 3d538d0e6d1ceb2f59289eded332c80a
+MD5sum: 02e9cbc0338b11e08ab3ff17c8a99405
 NeedsCompilation: no
 
 Package: DataTools
