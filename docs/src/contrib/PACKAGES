@@ -114,10 +114,10 @@ NeedsCompilation: no
 
 Package: InquiryR
 Version: 24.11.0
-Imports: futile.logger, jsonlite, shiny, shinysurveys
+Imports: futile.logger, jsonlite, shiny, shinysurveys, shinyTools
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 3cec8d3899022ce902748c3affb24ff7
+MD5sum: b7a6bad314222d39ed97016be727a039
 NeedsCompilation: no
 
 Package: IsoAppTools
