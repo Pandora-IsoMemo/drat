@@ -117,7 +117,7 @@ Version: 24.11.0
 Imports: futile.logger, jsonlite, shiny, shinysurveys, shinyTools
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: a2e79fe2393ca5bc3eefbb48d812b10b
+MD5sum: 892d3cf88574aebb6c4e945708b716dd
 NeedsCompilation: no
 
 Package: IsoAppTools
