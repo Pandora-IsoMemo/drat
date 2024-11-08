@@ -112,6 +112,14 @@ License: GPL (>= 3)
 MD5sum: 37c864f72bba927b60a781dd86ce9241
 NeedsCompilation: no
 
+Package: InquiryR
+Version: 24.11.0
+Imports: futile.logger, jsonlite, shiny, shinysurveys
+Suggests: testthat (>= 3.0.0)
+License: GPL (>= 3)
+MD5sum: e313ed85270bae2ef6123782f42d6467
+NeedsCompilation: no
+
 Package: IsoAppTools
 Version: 23.01.5
 Depends: R (>= 3.5.0)
