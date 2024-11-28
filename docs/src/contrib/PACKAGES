@@ -281,10 +281,10 @@ MD5sum: c73ae13effa0074894108b58db2418f1
 NeedsCompilation: no
 
 Package: TraceR
-Version: 24.09.0
+Version: 24.11.0
 Imports: DataTools (>= 24.07.0), DiagrammeR, futile.logger, jsonlite,
-        magrittr, shiny, shinyalert, yaml
+        magrittr, openssl, shiny, shinyalert, shinyjs, yaml
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 416c064c0859c79978dedbaa3ba96e3f
+MD5sum: 356b54574f281c1d584d811a67555c97
 NeedsCompilation: no
