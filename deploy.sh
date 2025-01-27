@@ -7,7 +7,7 @@ addToDrat(){
   echo "Building docker image"
   docker build -t tmp-$CUR_PROJ-$TMP_SUFFIX .
   echo "Compiling R package"
-  docker run --rm --network host -v $PWD:/app --user `id -u`:`id -g` tmp-$CUR_PROJ-$TMP_SUFFIX R CMD build --no-build-vignettes $CUR_PKG_FOLDER
+  docker run --rm --network host -v $PWD:/app --user `id -u`:`id -g` tmp-$CUR_PROJ-$TMP_SUFFIX R CMD build --no-build-vignettes --keep-empty-dirs $CUR_PKG_FOLDER
   echo "Deploy to drat"
   git clone https://$GH_TOKEN_PSW@github.com/Pandora-IsoMemo/drat.git
   docker run --rm -v $PWD:/app --user `id -u`:`id -g` tmp-$CUR_PROJ-$TMP_SUFFIX R -e "drat::insertPackage(dir(pattern='.tar.gz'), 'drat/docs'); drat::archivePackages(repopath = 'drat/docs')"
