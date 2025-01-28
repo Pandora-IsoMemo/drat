@@ -15,8 +15,8 @@ LinkingTo: StanHeaders (>= 2.21.0-7), rstan (>= 2.21.2), BH (>=
         1.72.0), Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.3.0)
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: f62bbccf374eb6bc823ba21fc7314d7e
-NeedsCompilation: no
+MD5sum: aa78ec51c5d04c242f299e76186a4caf
+NeedsCompilation: yes
 
 Package: BMSCApp
 Version: 24.04.0
