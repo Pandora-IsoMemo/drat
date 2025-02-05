@@ -271,13 +271,13 @@ MD5sum: e4270728c540ad877801bd21011bb5c0
 NeedsCompilation: no
 
 Package: shinyTools
-Version: 25.02.0.1
+Version: 25.02.0.2
 Imports: colourpicker, dplyr, futile.logger, ggplot2, grDevices,
         lifecycle, magrittr, openxlsx, plotly, rjson, rlang, scales,
         shiny, shinyalert, shinyjs, shinyWidgets, stats, utils, yaml
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 7c3d235807d0c71fdbc0efec5ed219de
+MD5sum: a2f023acac974ac0d495bbaeb0218cd5
 NeedsCompilation: no
 
 Package: TraceR
