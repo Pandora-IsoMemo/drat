@@ -109,7 +109,7 @@ Imports: animation, coda, colourpicker, DataTools (>= 24.04.3), dplyr,
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9),
         knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: 93b3e44b58d9876ff43f8328b25d8cb9
+MD5sum: 2a56fdf516e38557666c2a2fe7913bf4
 NeedsCompilation: no
 
 Package: InquiryR
