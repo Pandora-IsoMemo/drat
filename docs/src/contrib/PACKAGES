@@ -43,7 +43,7 @@ MD5sum: e1215008b246a031ed648dafc2dc277e
 NeedsCompilation: no
 
 Package: Bpred
-Version: 25.02.0.2
+Version: 25.03.0
 Depends: R (>= 4.0.0)
 Imports: coda, dplyr, futile.logger, ggplot2 (>= 2.2.1), DataTools (>=
         25.03.2), DT, httr, magrittr, mice, modules, rlang, rsync,
@@ -51,7 +51,7 @@ Imports: coda, dplyr, futile.logger, ggplot2 (>= 2.2.1), DataTools (>=
         shinyTools (>= 25.02.0.2), yaml
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: b366b9c0467c2dc893daf3b6297a33a1
+MD5sum: a970052da92f6dac4278884a42ab763a
 NeedsCompilation: yes
 
 Package: CausalR
