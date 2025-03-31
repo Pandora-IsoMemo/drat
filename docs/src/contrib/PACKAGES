@@ -156,7 +156,7 @@ Depends: R (>= 3.5.0)
 Imports: httr2, shiny, shinyAce
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: e5e832b01aba2b902d763e93f210199d
+MD5sum: 454de8a9938f7286fdd72343ba085a44
 NeedsCompilation: no
 
 Package: MapR
