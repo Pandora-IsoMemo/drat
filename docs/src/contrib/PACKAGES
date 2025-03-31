@@ -153,10 +153,10 @@ NeedsCompilation: no
 Package: llmModule
 Version: 0.1.0
 Depends: R (>= 3.5.0)
-Imports: httr2, shiny, shinyAce
+Imports: httr2, shiny, shinyAce, shinyjs
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: a275ee4e5a4fb52b86da4891fb6ea445
+MD5sum: 62dd9f79f05461bdb133d168872b5bd2
 NeedsCompilation: no
 
 Package: MapR
