@@ -240,7 +240,7 @@ Package: oxcAARS
 Version: 24.08.0
 Imports: magrittr, oxcAAR, shiny
 License: GPL (>= 3)
-MD5sum: 97288a31e3196a8ac3d2022ebdb07c47
+MD5sum: bb55107dabd90d54a6e3d4cea2b72fcf
 NeedsCompilation: no
 
 Package: Pandora
