@@ -151,12 +151,13 @@ MD5sum: 9b79d797fbeabf2d0320cce1b154aa2d
 NeedsCompilation: no
 
 Package: llmModule
-Version: 25.06.0
+Version: 25.06.1
 Depends: R (>= 3.5.0)
-Imports: data.table, httr2, ollamar, shiny, shinyAce, shinyjs
+Imports: data.table, futile.logger, httr2, ollamar, shiny, shinyAce,
+        shinyjs, shinyTools
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: 7f6cce15d534e10b2602756da73d990b
+MD5sum: 49d4acafe6621d56461c92e005577720
 NeedsCompilation: no
 
 Package: MapR
