@@ -157,7 +157,7 @@ Imports: data.table, futile.logger, httr2, ollamar, shiny, shinyAce,
         shinyjs, shinyTools
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: 49d4acafe6621d56461c92e005577720
+MD5sum: 348fd7ac09fee41ada525ea9e2a2f985
 NeedsCompilation: no
 
 Package: MapR
