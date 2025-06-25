@@ -76,13 +76,13 @@ Package: DataTools
 Version: 25.06.3
 Depends: R (>= 3.5.0)
 Imports: data.table, dplyr, DT, htmltools, httr, futile.logger,
-        jsonlite, lifecycle, llmModule (>= 25.06.4), magrittr,
+        jsonlite, lifecycle, llmModule (>= 25.06.5), magrittr,
         openxlsx, readxl, Pandora (>= 23.12.0), RSQLite, shiny,
         shinyAce, shinyalert, shinyjs, shinyTools, shinyWidgets,
         templates, tidyr, urltools, utils, yaml, zip
 Suggests: devtools, lintr (>= 1.0.2), testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: d531dfef177d32733c37b0c648f3a876
+MD5sum: 0402c969b21b5d7eb35a1559e59d6cf1
 NeedsCompilation: no
 
 Package: deBInferS
