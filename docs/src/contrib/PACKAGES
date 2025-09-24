@@ -94,24 +94,24 @@ MD5sum: fae932e45cb84f4fbbb962647c974d8c
 NeedsCompilation: no
 
 Package: DSSM
-Version: 25.06.1
+Version: 25.09.0
 Depends: R (>= 3.5.0)
 Imports: animation, coda, colourpicker, DataTools (>= 25.06.3), dplyr,
         DT (>= 0.4), elevatr (>= 0.4.2), futile.logger, jsonlite (>=
-        1.5), gdistance (>= 1.3-6), geometry (>= 0.4.0), ggplot2,
-        htmlwidgets, IsoMemo (>= 23.10.1), ks (>= 1.0.0), leaflet (>=
-        1.1.0), magick, maps (>= 3.2.0), markdown, MASS (>= 7.3.5),
-        mclust, mgcv (>= 1.8.23), mice, openxlsx (>= 4.0.17), pgdraw,
-        pryr, raster (>= 2.6.7), rcarbon (>= 1.4.0), RColorBrewer (>=
-        1.1.2), Rfast (>= 2.0.0), rlang, shiny (>= 1.0.5),
-        shinycssloaders, shinyjs (>= 1.0), shinyMatrix (>= 0.2.1),
-        shinythemes (>= 1.1.1), shinyTools (>= 25.04.0), shinyWidgets
-        (>= 0.4.1), sf, sp (>= 1.2.7), stringi (>= 1.1.7), tclust,
-        webshot2, yaml, zip
-Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), ReSources (>= 0.7.9),
-        knitr, rmarkdown
+        1.5), gdistance (>= 1.3-6), geometry (>= 0.4.0), geosphere,
+        ggplot2, gifski, htmlwidgets, IsoMemo (>= 23.10.1), ks (>=
+        1.0.0), leaflet (>= 1.1.0), magick, maps (>= 3.2.0), markdown,
+        MASS (>= 7.3.5), mclust, mgcv (>= 1.8.23), mice, openxlsx (>=
+        4.0.17), pgdraw, pryr, raster (>= 2.6.7), rcarbon (>= 1.4.0),
+        RColorBrewer (>= 1.1.2), Rfast (>= 2.0.0), rlang, shiny (>=
+        1.0.5), shinycssloaders, shinyjs (>= 1.0), shinyMatrix (>=
+        0.2.1), shinythemes (>= 1.1.1), shinyTools (>= 25.04.0),
+        shinyWidgets (>= 0.4.1), sf, sp (>= 1.2.7), stringi (>= 1.1.7),
+        tclust, webshot2, yaml, zip
+Suggests: knitr, lintr (>= 1.0.2), ReSources (>= 0.7.9), rmarkdown,
+        testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: 026e700f7f451983b6b4e3029bfb8bb8
+MD5sum: ae1b733f5a2da533145f0544cc38ebf2
 NeedsCompilation: no
 
 Package: InquiryR
