@@ -222,7 +222,7 @@ Imports: dbtools, devtools, dplyr, futile.logger, httr, magrittr,
         tidyr, xml2
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: fe77624c15b58b2056dcc9e7890cbd91
+MD5sum: c8ea44d42f2a756f3a76b45768c8227a
 NeedsCompilation: no
 
 Package: OsteoBioR
