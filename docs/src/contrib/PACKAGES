@@ -290,7 +290,7 @@ Imports: futile.logger, tidyRSS, yaml, httr, rvest, stringr, dplyr,
         rlang, mongolite
 Suggests: lintr, testthat (>= 3.0.0), purrr, tibble
 License: GPL (>= 3)
-MD5sum: d4137820e530efdd8112f871042ae67c
+MD5sum: 13eb847b24d458a96dea8b8dab1779ee
 NeedsCompilation: no
 
 Package: shinyTools
