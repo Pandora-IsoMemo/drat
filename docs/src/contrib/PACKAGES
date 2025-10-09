@@ -284,6 +284,15 @@ License: GPL (>= 3)
 MD5sum: fb24c4df53c9a8c7081aa897895a049b
 NeedsCompilation: no
 
+Package: rssData
+Version: 25.10.0
+Imports: futile.logger, tidyRSS, yaml, httr, rvest, stringr, dplyr,
+        rlang, mongolite
+Suggests: lintr, testthat (>= 3.0.0), purrr, tibble
+License: GPL (>= 3)
+MD5sum: d4137820e530efdd8112f871042ae67c
+NeedsCompilation: no
+
 Package: shinyTools
 Version: 25.09.0
 Imports: colourpicker, dplyr, futile.logger, ggplot2, grDevices,
