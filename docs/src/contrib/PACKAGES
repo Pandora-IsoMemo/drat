@@ -237,7 +237,7 @@ LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0),
         Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)
 Suggests: lintr, shinytest, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 79af830947d4730717a808a5f69f96fb
+MD5sum: 7c06c4a2bb6eecd11a09c958897a5839
 NeedsCompilation: yes
 
 Package: oxcAARS
