@@ -39,7 +39,7 @@ Imports: car, coda, BMSC (>= 23.07.1.1), DataTools (>= 24.10.0), dplyr,
         shinyWidgets, tidyr, yaml
 Suggests: lintr (>= 1.0.2), testthat
 License: GPL (>= 3)
-MD5sum: 3f1ba06a3d11b138301ca3d5acdaf8df
+MD5sum: 6000cd18f0065da9d1f2d935d01f1708
 NeedsCompilation: no
 
 Package: Bpred
