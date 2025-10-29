@@ -60,7 +60,7 @@ Imports: CausalImpact, DataTools (>= 24.06.0), ggplot2, readxl, rlang,
         shiny, shinythemes, stringr, svglite, zoo
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 56edaea71db5823a48305d916543f0e3
+MD5sum: 2a5167d28abd837c0b4e915a81425cf0
 NeedsCompilation: no
 
 Package: ChangeR
