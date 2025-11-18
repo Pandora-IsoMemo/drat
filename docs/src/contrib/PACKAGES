@@ -155,12 +155,12 @@ NeedsCompilation: no
 Package: llmModule
 Version: 25.06.5
 Depends: R (>= 3.5.0)
-Imports: data.table, futile.logger, httr2, shiny, shinyAce, shinyjs,
-        shinyTools
+Imports: data.table, futile.logger, httr2, rlang, shiny, shinyAce,
+        shinyjs, shinyTools
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), knitr, ollamar,
         rmarkdown
 License: GPL (>= 3)
-MD5sum: 670ed025898e4c7352dd06282ce7ee7d
+MD5sum: 5ab80d2033ce75eb9ca9f8a8422d84c1
 NeedsCompilation: no
 
 Package: MapR
