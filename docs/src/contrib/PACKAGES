@@ -256,6 +256,15 @@ License: GPL (>= 3)
 MD5sum: f04f6c54b614df69fd8d90df34ea1e83
 NeedsCompilation: no
 
+Package: PEITHO
+Version: 25.11.0
+Depends: R (>= 3.5.0)
+Imports: shiny, httr2, rvest, stringr, tibble
+Suggests: testthat, knitr, rmarkdown
+License: GPL (>= 3)
+MD5sum: 53fa7aa2dfa1702758aaf840af10012c
+NeedsCompilation: no
+
 Package: PlotR
 Version: 25.03.0.1
 Depends: R (>= 3.5.0)
