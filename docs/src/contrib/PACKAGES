@@ -262,7 +262,7 @@ Depends: R (>= 3.5.0)
 Imports: shiny, httr2, rvest, stringr, tibble
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: 53fa7aa2dfa1702758aaf840af10012c
+MD5sum: 83483d40b0de13ebc6404d70808a4035
 NeedsCompilation: no
 
 Package: PlotR
