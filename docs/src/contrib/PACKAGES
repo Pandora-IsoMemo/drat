@@ -294,12 +294,12 @@ MD5sum: fb24c4df53c9a8c7081aa897895a049b
 NeedsCompilation: no
 
 Package: rssData
-Version: 25.10.0
+Version: 25.11.0
 Imports: futile.logger, tidyRSS, yaml, httr, rvest, stringr, dplyr,
-        rlang, mongolite
-Suggests: lintr, testthat (>= 3.0.0), purrr, tibble
+        rlang, mongolite, purrr, glue
+Suggests: lintr, testthat (>= 3.0.0), tibble
 License: GPL (>= 3)
-MD5sum: 6cd5d68cadce923076cff227cc22e682
+MD5sum: 5993a0b73be5ae464c75b43b9f93ba3d
 NeedsCompilation: no
 
 Package: shinyTools
