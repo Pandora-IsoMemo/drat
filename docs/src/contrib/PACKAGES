@@ -258,12 +258,12 @@ NeedsCompilation: no
 
 Package: PEITHO
 Version: 25.12.0
-Depends: R (>= 3.5.0)
+Depends: R (>= 4.1.0)
 Imports: shiny, httr2, futile.logger, jsonlite, rvest, stats, stringr,
         tibble, utils
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: 1a1f351849cbf7e375e3efc575b19ce0
+MD5sum: abc3c28b2382535dfe110128a098e7e6
 NeedsCompilation: no
 
 Package: PlotR
