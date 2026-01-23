@@ -263,7 +263,7 @@ Imports: shiny, DataTools (>= 26.01.0), httr2, futile.logger, jsonlite,
         rvest, stats, stringr, tibble, utils
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: ee4c8c6644780e7498d3bb5beff80282
+MD5sum: e6be28ff96b8b6cc373d1183822cda81
 NeedsCompilation: no
 
 Package: PlotR
