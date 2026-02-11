@@ -257,13 +257,13 @@ MD5sum: f04f6c54b614df69fd8d90df34ea1e83
 NeedsCompilation: no
 
 Package: PEITHO
-Version: 26.01.2
+Version: 26.02.0
 Depends: R (>= 4.1.0)
 Imports: shiny, DataTools (>= 26.01.0), httr2, futile.logger, jsonlite,
         rvest, stats, stringr, tibble, utils
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: b16dc7eb6358bf4572abc3aeec20d4c2
+MD5sum: 59c9686d4752a9cde5fc4ea111a7dc60
 NeedsCompilation: no
 
 Package: PlotR
