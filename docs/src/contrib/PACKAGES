@@ -171,7 +171,7 @@ Imports: futile.logger, llmModule (>= 26.05.0), shiny, shinyAce,
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), knitr, ollamar,
         rmarkdown
 License: GPL (>= 3)
-MD5sum: 99ae594d6a20afd0d98a6901c1b8f132
+MD5sum: 575ade817d3182b4587f8f884f7209c6
 NeedsCompilation: no
 
 Package: MapR
