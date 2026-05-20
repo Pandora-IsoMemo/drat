@@ -163,6 +163,17 @@ License: GPL (>= 3)
 MD5sum: 5970a145dffe5dfebd0ace78ca8d9447
 NeedsCompilation: no
 
+Package: llmModuleS
+Version: 26.05.0
+Depends: R (>= 3.5.0)
+Imports: futile.logger, llmModule (>= 26.05.0), shiny, shinyAce,
+        shinyjs, shinyTools (>= 26.05.0)
+Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), knitr, ollamar,
+        rmarkdown
+License: GPL (>= 3)
+MD5sum: fee4e6e176068e1fab11236f1a2558d4
+NeedsCompilation: no
+
 Package: MapR
 Version: 25.04.0
 Imports: colourpicker, DataTools (>= 24.06.0), DT, futile.logger,
