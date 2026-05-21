@@ -160,7 +160,7 @@ Imports: data.table, futile.logger, httr2, lifecycle, rlang, shiny,
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), knitr, ollamar,
         rmarkdown
 License: GPL (>= 3)
-MD5sum: 4ab82879dc9d353de9da498b41cc4132
+MD5sum: 72423090d504b6cb588f43d7f29c0720
 NeedsCompilation: no
 
 Package: llmModuleS
