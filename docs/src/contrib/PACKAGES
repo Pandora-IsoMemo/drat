@@ -276,7 +276,7 @@ Imports: DataTools (>= 26.02.0), DiagrammeR, DT, httr2, futile.logger,
         utils, xml2, yaml
 Suggests: devtools, testthat, knitr, rmarkdown
 License: GPL (>= 3)
-MD5sum: 97ac7078a3d874da2e27d9d8f5f2c29f
+MD5sum: a4744984656629f19eec1db5178726f1
 NeedsCompilation: no
 
 Package: PlotR
