@@ -153,14 +153,14 @@ MD5sum: 9b79d797fbeabf2d0320cce1b154aa2d
 NeedsCompilation: no
 
 Package: llmModule
-Version: 26.06.1
+Version: 26.07.0
 Depends: R (>= 4.1.0)
 Imports: data.table, ellmer, futile.logger, httr2, lifecycle, rlang,
         shiny, shinyAce, shinyjs, shinyTools
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), knitr, ollamar,
         rmarkdown
 License: GPL (>= 3)
-MD5sum: 0655c40960214c1032f548ce16c18751
+MD5sum: c7c5d3c3326a2fc6256916a1b72a6186
 NeedsCompilation: no
 
 Package: llmModuleS
