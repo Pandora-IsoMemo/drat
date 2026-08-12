@@ -164,14 +164,14 @@ MD5sum: ee5797d1b443647ab049e95dd5b1c37d
 NeedsCompilation: no
 
 Package: llmModuleS
-Version: 26.05.1
-Depends: R (>= 3.5.0)
-Imports: futile.logger, llmModule (>= 26.05.0), shiny, shinyAce,
-        shinyjs, shinyTools (>= 26.05.0)
+Version: 26.08.0
+Depends: R (>= 4.1.0)
+Imports: futile.logger, llmModule (>= 26.05.0), openssl, shiny,
+        shinyAce, shinyjs, shinyTools (>= 26.05.0)
 Suggests: lintr (>= 1.0.2), testthat (>= 2.0.0), knitr, ollamar,
         rmarkdown
 License: GPL (>= 3)
-MD5sum: acbfab92f65cc4ce7f8ebcb83d7c7b01
+MD5sum: af41eea61afe315bf6ae42abe5c0c804
 NeedsCompilation: no
 
 Package: MapR
