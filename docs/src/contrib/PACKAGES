@@ -181,7 +181,7 @@ Imports: colourpicker, DataTools (>= 24.06.0), DT, futile.logger,
         shinyTools (>= 24.03.1), shinyWidgets, terra, yaml
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 7731ff717e47f10f84c9d35332de93b4
+MD5sum: edf0f774b68e097ed706df4417edefb5
 NeedsCompilation: no
 
 Package: mpiBpred
