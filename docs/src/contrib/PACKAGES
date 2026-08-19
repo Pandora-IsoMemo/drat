@@ -115,13 +115,13 @@ MD5sum: ba65509d00cc059d9690993de6fab231
 NeedsCompilation: no
 
 Package: InquiryR
-Version: 24.11.1.1
-Imports: cyphr, DataTools (>= 24.11.0), dplyr, DT, futile.logger,
-        jsonlite, shiny, shinyjs, shinysurveys, shinyTools (>=
-        24.11.1), shinyWidgets, sodium, stats
+Version: 26.08.0
+Imports: cyphr, DataTools (>= 26.08.2), dplyr, DT, futile.logger,
+        jsonlite, shiny, shinyjs, shinyTools (>= 24.11.1),
+        shinyWidgets, sodium, stats
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 383be3c1f176d7ddbbad0a9b679aaafe
+MD5sum: ab5ad3faa3e59a60796a99a774584c60
 NeedsCompilation: no
 
 Package: IsoAppTools
