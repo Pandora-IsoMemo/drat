@@ -175,13 +175,13 @@ MD5sum: b3dee16b24b0b436d11865ac5419128c
 NeedsCompilation: no
 
 Package: MapR
-Version: 25.04.0
-Imports: colourpicker, DataTools (>= 24.06.0), DT, futile.logger,
+Version: 26.08.0
+Imports: colourpicker, DataTools (>= 26.08.2), DT, futile.logger,
         graphics, magick, magrittr, pastclim, rjson, shiny, shinyjs,
         shinyTools (>= 24.03.1), shinyWidgets, terra, yaml
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: edf0f774b68e097ed706df4417edefb5
+MD5sum: 282debf007203abdd1ec6dfdcdc0b52a
 NeedsCompilation: no
 
 Package: mpiBpred
