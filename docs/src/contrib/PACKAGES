@@ -121,7 +121,7 @@ Imports: cyphr, DataTools (>= 26.08.2), dplyr, DT, futile.logger,
         shinyWidgets, sodium, stats
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: ab5ad3faa3e59a60796a99a774584c60
+MD5sum: 434eaf2f9b8d4609768a86f2ae2ccb52
 NeedsCompilation: no
 
 Package: IsoAppTools
