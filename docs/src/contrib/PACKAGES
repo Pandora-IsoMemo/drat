@@ -70,7 +70,7 @@ Imports: DataTools (>= 24.10.0), DT, futile.logger, loo, magrittr, mcp,
         stats, utils, yaml, zoo
 Suggests: rmarkdown, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 8c3374bac532f48d55cbc7beb5bade51
+MD5sum: 4fdba53284e65ba21d0dcb80dfd56cc1
 NeedsCompilation: no
 
 Package: DataTools
