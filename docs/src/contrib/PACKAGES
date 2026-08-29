@@ -237,18 +237,18 @@ MD5sum: c8ea44d42f2a756f3a76b45768c8227a
 NeedsCompilation: no
 
 Package: OsteoBioR
-Version: 25.03.0
-Depends: R (>= 3.5.0), Rcpp (>= 0.12.0)
-Imports: ChangeR (>= 24.11.0.4), dplyr, ggplot2 (>= 2.2.1), DataTools
-        (>= 24.10.0.2), futile.logger, methods, modules, parallel,
-        rlang, rstan (>= 2.18.1), rstantools (>= 1.5.0), shiny,
+Version: 26.08.1
+Depends: R (>= 4.2.0), Rcpp (>= 0.12.0)
+Imports: ChangeR (>= 26.08.0), dplyr, ggplot2 (>= 2.2.1), DataTools (>=
+        26.08.2), futile.logger, methods, modules, parallel, rlang,
+        rstan (>= 2.18.1), rstantools (>= 1.5.0), shiny,
         shinycssloaders, shinyjs, shinyMatrix, shinyWidgets,
-        shinythemes, shinyTools (>= 25.02.0.2), yaml
+        shinythemes, shinyTools (>= 26.05.0), yaml
 LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0),
         Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)
 Suggests: lintr, shinytest, testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 7c06c4a2bb6eecd11a09c958897a5839
+MD5sum: 1746174a74463c18a68bad72654f441a
 NeedsCompilation: yes
 
 Package: oxcAARS
