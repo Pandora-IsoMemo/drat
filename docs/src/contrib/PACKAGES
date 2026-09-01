@@ -6,16 +6,16 @@ MD5sum: 6d19e1c5d0ca9fccaa0a3bd32d202a97
 NeedsCompilation: no
 
 Package: BMSC
-Version: 26.07.0
+Version: 26.08.0
 Depends: R (>= 3.5.0), Rcpp (>= 1.0.0), methods
 Imports: dplyr (>= 0.7.4), ggplot2 (>= 2.2.1), loo (>= 2.0.0), mice,
-        pROC, rstan (>= 2.21.2), rstantools (>= 2.1.1), R.utils (>=
+        pROC, rstan (>= 2.32.0), rstantools (>= 2.4.0), R.utils (>=
         2.6.0), shiny, stats
-LinkingTo: StanHeaders (>= 2.21.0-7), rstan (>= 2.21.2), BH (>=
-        1.72.0), Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.3.0)
+LinkingTo: StanHeaders (>= 2.32.0), rstan (>= 2.32.0), BH (>= 1.72.0),
+        Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.3.0)
 Suggests: lintr, testthat
 License: GPL (>= 3)
-MD5sum: 37e87084f911f4f372432f9df34c1531
+MD5sum: 412660d15ab921a7f18071363a3bb1ff
 NeedsCompilation: yes
 
 Package: BMSCApp
