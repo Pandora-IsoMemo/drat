@@ -55,12 +55,13 @@ MD5sum: 3730994a80df980a4875c53c3b161df3
 NeedsCompilation: yes
 
 Package: CausalR
-Version: 25.04.0
-Imports: CausalImpact, DataTools (>= 24.06.0), ggplot2, readxl, rlang,
+Version: 26.09.0
+Depends: R (>= 4.5.0)
+Imports: CausalImpact, DataTools (>= 26.08.2), ggplot2, readxl, rlang,
         shiny, shinythemes, stringr, svglite, zoo
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 2a5167d28abd837c0b4e915a81425cf0
+MD5sum: b3068dcafe697654d8300f5c1c73aff1
 NeedsCompilation: no
 
 Package: ChangeR
