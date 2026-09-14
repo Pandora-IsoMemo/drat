@@ -324,7 +324,7 @@ Imports: colourpicker, dplyr, futile.logger, ggplot2, grDevices,
         shiny, shinyalert, shinyjs, shinyWidgets, stats, utils, yaml
 Suggests: testthat (>= 3.0.0)
 License: GPL (>= 3)
-MD5sum: 182d9c290f8a3e4d0f28a9a4f655e7a6
+MD5sum: 9f29e6407739860c3bcd5fca98992a09
 NeedsCompilation: no
 
 Package: TraceR
