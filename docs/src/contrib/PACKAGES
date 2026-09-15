@@ -95,7 +95,7 @@ MD5sum: fae932e45cb84f4fbbb962647c974d8c
 NeedsCompilation: no
 
 Package: DSSM
-Version: 26.08.0
+Version: 26.09.0
 Depends: R (>= 3.5.0)
 Imports: animation, coda, colourpicker, DataTools (>= 26.08.2), dplyr,
         DT (>= 0.4), elevatr (>= 0.4.2), futile.logger, jsonlite (>=
@@ -112,7 +112,7 @@ Imports: animation, coda, colourpicker, DataTools (>= 26.08.2), dplyr,
 Suggests: knitr, lintr (>= 1.0.2), ReSources (>= 0.7.9), rmarkdown,
         testthat (>= 2.0.0)
 License: GPL (>= 3)
-MD5sum: 8d57608adefdc6175c6b2deac447bc55
+MD5sum: bebe2356f1204a3d58ebb84f963311d2
 NeedsCompilation: no
 
 Package: InquiryR
