@@ -260,12 +260,12 @@ MD5sum: bb55107dabd90d54a6e3d4cea2b72fcf
 NeedsCompilation: no
 
 Package: Pandora
-Version: 26.08.4
+Version: 26.09.0
 Imports: dplyr, curl, jsonlite, magrittr, openxlsx, readODS, readr,
         readxl, rlang, stats, yaml
 Suggests: knitr, qpdf, rmarkdown, testthat
 License: GPL (>= 3)
-MD5sum: bfd3c84dc2760fa0465d3b072da9e008
+MD5sum: ae0a86c4134a11d234f2d1abf9ec759e
 NeedsCompilation: no
 
 Package: PEITHO
