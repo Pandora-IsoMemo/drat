@@ -265,7 +265,7 @@ Imports: dplyr, curl, jsonlite, magrittr, openxlsx, readODS, readr,
         readxl, rlang, stats, yaml
 Suggests: knitr, qpdf, rmarkdown, testthat
 License: GPL (>= 3)
-MD5sum: ae0a86c4134a11d234f2d1abf9ec759e
+MD5sum: c0fb41dd55bc5c2e7a7a16bd0b1deb9c
 NeedsCompilation: no
 
 Package: PEITHO
